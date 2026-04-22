@@ -368,129 +368,94 @@ ul li::before {
             </div>
           </div>
           <div class="o-content" style="width: 100%; margin-top: 3rem;">
-            <div class="tf-compare-table">
-              <table>
-                <thead>
-                  <tr>
-                    <th></th>
-                    <th class="tf-col-market">Recrutement sans TechFlow</th>
-                    <th class="tf-col-tf">Recrutement avec TechFlow</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td class="tf-criteria">Délai de recrutement</td>
-                    <td class="tf-market">3 à 4 mois</td>
-                    <td class="tf-techflow">1 à 2 semaines</td>
-                  </tr>
-                  <tr>
-                    <td class="tf-criteria">Qualité des profils</td>
-                    <td class="tf-market">Variable, avec peu de garanties</td>
-                    <td class="tf-techflow">Talents hautement qualifiés, testés et opérationnels immédiatement</td>
-                  </tr>
-                  <tr>
-                    <td class="tf-criteria">Coûts</td>
-                    <td class="tf-market">Environ 450€/jour</td>
-                    <td class="tf-techflow">Environ 210€/jour</td>
-                  </tr>
-                  <tr>
-                    <td class="tf-criteria">Encadrement</td>
-                    <td class="tf-market">À charge de votre équipe interne</td>
-                    <td class="tf-techflow">Chef de projet français dédié avec suivi et coordination complète</td>
-                  </tr>
-                  <tr>
-                    <td class="tf-criteria">Flexibilité</td>
-                    <td class="tf-market">Peu flexible, contrat fixe souvent long</td>
-                    <td class="tf-techflow">Adaptable à vos besoins : missions courtes, moyennes ou longues</td>
-                  </tr>
-                  <tr>
-                    <td class="tf-criteria">Gestion des risques</td>
-                    <td class="tf-market">Risque d'échec élevé, sans couverture</td>
-                    <td class="tf-techflow">Préavis avec remplacement gratuit</td>
-                  </tr>
-                </tbody>
-              </table>
+            <div class="tf-challenge-grid">
+              <div class="tf-challenge-header">
+                <div class="tf-challenge-col-head"><em>En Europe</em></div>
+                <div class="tf-challenge-col-head"><em>En offshore classique</em></div>
+              </div>
+              <div class="tf-challenge-row">
+                <div class="tf-challenge-cell">Recrutement long et incertain</div>
+                <div class="tf-challenge-cell">Absence de cadre structuré</div>
+              </div>
+              <div class="tf-challenge-row">
+                <div class="tf-challenge-cell">Coûts en constante augmentation</div>
+                <div class="tf-challenge-cell">Supervision limitée</div>
+              </div>
+              <div class="tf-challenge-row">
+                <div class="tf-challenge-cell">Pression sur la roadmap</div>
+                <div class="tf-challenge-cell">Responsabilité diffuse</div>
+              </div>
+            </div>
+            <div class="tf-challenge-result">
+              <p><strong><em>Résultat :</em></strong> plus de risque que de solutions</p>
+              <p class="tf-challenge-cta">TechFlow Connect existe pour changer cela.</p>
             </div>
             <style>
-.tf-compare-table {
+.tf-challenge-grid {
   width: 100%;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-}
-.tf-compare-table table {
-  width: 100%;
-  border-collapse: separate;
-  border-spacing: 0;
+  max-width: 800px;
+  margin: 0 auto;
   border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.06), 0 4px 16px rgba(0,0,0,0.04);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04), 0 4px 16px rgba(0,0,0,0.03);
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-.tf-compare-table thead tr {
-  background: #f8f9fb;
+.tf-challenge-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px;
 }
-.tf-compare-table th {
-  padding: 1.25rem 1.5rem;
-  font-size: 0.9rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  color: #64748b;
-  text-align: left;
-  border-bottom: 2px solid #e2e8f0;
-}
-.tf-compare-table th.tf-col-market {
-  color: #94a3b8;
+.tf-challenge-col-head {
+  background: #4e65f6;
+  color: #fff;
   text-align: center;
-}
-.tf-compare-table th.tf-col-tf {
-  color: #4e65f6;
-  text-align: center;
-}
-.tf-compare-table td {
   padding: 1.1rem 1.5rem;
-  font-size: 0.95rem;
-  line-height: 1.5;
-  border-bottom: 1px solid #f1f5f9;
-  vertical-align: middle;
-}
-.tf-compare-table tbody tr:last-child td {
-  border-bottom: none;
-}
-.tf-compare-table tbody tr {
-  transition: background-color 0.2s ease;
-}
-.tf-compare-table tbody tr:hover {
-  background-color: #f8faff;
-}
-.tf-compare-table .tf-criteria {
+  font-size: 1.15rem;
   font-weight: 600;
-  color: #1e293b;
-  width: 20%;
-  white-space: nowrap;
+  font-style: italic;
 }
-.tf-compare-table .tf-market {
-  color: #64748b;
-  text-align: center;
-  width: 40%;
-  background: #fafbfc;
+.tf-challenge-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px;
+  margin-top: 4px;
 }
-.tf-compare-table .tf-techflow {
-  color: #1e293b;
+.tf-challenge-cell {
+  background: rgba(78, 101, 246, 0.08);
   text-align: center;
-  width: 40%;
-  font-weight: 500;
-  background: linear-gradient(135deg, rgba(78,101,246,0.04), rgba(78,101,246,0.08));
+  padding: 1.1rem 1.5rem;
+  font-size: 1rem;
+  color: #1e293b;
+  line-height: 1.5;
+}
+.tf-challenge-result {
+  text-align: center;
+  margin-top: 2.5rem;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.tf-challenge-result p {
+  font-size: 1.15rem;
+  color: #1e293b;
+  margin: 0;
+}
+.tf-challenge-cta {
+  font-size: 1.5rem !important;
+  font-weight: 700;
+  color: #4e65f6 !important;
+  margin-top: 0.75rem !important;
+  font-style: italic;
 }
 @media (max-width: 767px) {
-  .tf-compare-table th,
-  .tf-compare-table td {
+  .tf-challenge-col-head {
+    font-size: 0.95rem;
     padding: 0.85rem 1rem;
-    font-size: 0.85rem;
   }
-  .tf-compare-table .tf-criteria {
-    white-space: normal;
-    min-width: 110px;
+  .tf-challenge-cell {
+    font-size: 0.9rem;
+    padding: 0.85rem 0.75rem;
+  }
+  .tf-challenge-cta {
+    font-size: 1.2rem !important;
   }
 }
             </style>
