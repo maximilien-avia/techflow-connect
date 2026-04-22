@@ -2410,7 +2410,7 @@ figcaption {
   grid-row-gap: 0px;
   background-color: #ffffff1f;
   border-radius: 15px;
-  grid-template-rows: 140px 64px 110px 64px 100px 100px 64px;
+  grid-template-rows: 100px 44px 70px 44px 70px 70px 44px;
   grid-template-columns: 1fr;
   grid-auto-columns: 1fr;
   place-items: center stretch;
@@ -4160,7 +4160,7 @@ figcaption {
   .comparer-row {
     grid-column-gap: 8px;
     grid-row-gap: 8px;
-    grid-template-rows: 140px 64px 155px 64px 150px 150px 64px;
+    grid-template-rows: 100px 50px 100px 50px 100px 100px 50px;
     padding: 1rem;
   }
 
