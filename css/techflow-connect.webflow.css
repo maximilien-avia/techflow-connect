@@ -1963,11 +1963,11 @@ figcaption {
 }
 
 .o-content.hero ul li {
-  color: #fff;
+  color: #1e293b;
 }
 
 .o-content.hero ul li::before {
-  background: #fff;
+  background: #1e293b;
 }
 
 .o-content.hero.pour {
