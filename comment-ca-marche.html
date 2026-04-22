@@ -1,0 +1,703 @@
+<!DOCTYPE html><!--  Last Published: Sun Apr 19 2026 08:45:35 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="690e9952e1056fa84be940e6" data-wf-site="68e9ba40dcc96438485d67bb">
+<head>
+  <meta charset="utf-8">
+  <title>Techflow Connect | Comment ça marche</title>
+  <meta content="Découvrez notre processus fluide en 5 étapes pour constituer votre équipe tech idéale, avec suivi, garanties et pilotage continu." name="description">
+  <meta content="Techflow Connect | Comment ça marche" property="og:title">
+  <meta content="Découvrez notre processus fluide en 5 étapes pour constituer votre équipe tech idéale, avec suivi, garanties et pilotage continu." property="og:description">
+  <meta content="https://cdn.prod.website-files.com/68e9ba40dcc96438485d67bb/6965f60fa353e6e9296cf3d8_how%20does%20it%20work.jpg" property="og:image">
+  <meta content="Techflow Connect | Comment ça marche" property="twitter:title">
+  <meta content="Découvrez notre processus fluide en 5 étapes pour constituer votre équipe tech idéale, avec suivi, garanties et pilotage continu." property="twitter:description">
+  <meta property="og:type" content="website">
+  <meta content="summary_large_image" name="twitter:card">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/techflow-connect.webflow.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Roboto:300,400,500,600,700"]  }});</script>
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon">
+  <style>
+/* ---------- Global Custom Bullet Style ---------- */
+ul {
+  list-style: none;       /* remove default bullets */
+  padding-left: 0;
+  margin: 1rem 0;
+}
+ul li {
+  position: relative;
+  padding-left: 1.6rem;   /* space for the custom bullet */
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #1f2937;         /* text color (dark gray) */
+}
+/* single clean bullet circle */
+ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55rem;           /* vertically center the bullet */
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: #2563eb;    /* brand color — solid blue */
+}
+/* ---------- Custom Text Highlight ---------- */
+::selection {
+  background: #2563eb;     /* highlight background */
+  color: #ffffff;          /* highlight text color */
+}
+/* for Firefox */
+::-moz-selection {
+  background: #2563eb;
+  color: #ffffff;
+}
+</style>
+</head>
+<body>
+  <div class="page-wrapper">
+    <div class="global-styles w-embed"></div>
+    <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="nav_component navbar w-nav">
+      <div class="o-container nav">
+        <div class="w-embed w-script">
+          <script>
+  // Run code after the Webflow page has fully loaded
+  document.addEventListener('DOMContentLoaded', function() {
+    // Function to detect /expertises in URL and change text color
+    function changeTextColorOnExpertisesPage(dropdownId, color = 'red') {
+      if (window.location.pathname.includes('/expertises')) {
+        const dropdown = document.getElementById(dropdownId);
+        if (dropdown) {
+          dropdown.style.color = color;
+          console.log(`Changed ${dropdownId} text color to ${color} on /expertises`);
+        } else {
+          console.warn(`Element with ID "${dropdownId}" not found.`);
+        }
+      }
+    }
+    // ✅ Example usage — replace 'dropdown' with your actual Webflow element ID
+    changeTextColorOnExpertisesPage('dropdown', '#4e65f6'); // DodgerBlue
+  });
+</script>
+        </div>
+        <div class="nav_container">
+          <nav role="navigation" class="nav_menu w-nav-menu">
+            <a href="index.html" class="nav_brand w-nav-brand"><img src="images/techflow-connect.svg" loading="lazy" width="267.5" alt="Techflow Connect logo" class="nav_logo"></a>
+            <div data-hover="true" data-delay="0" class="dropdown w-dropdown">
+              <div id="dropdown" class="nav_menu_link w-dropdown-toggle">
+                <div>Nos Expertises</div>
+                <div class="icon w-icon-dropdown-toggle"></div>
+              </div>
+              <nav class="dropdown-list w-dropdown-list">
+                <a href="expertises/front-end.html" class="nav_menu_link inner w-dropdown-link">Front-end</a>
+                <a href="expertises/back-end.html" class="nav_menu_link inner w-dropdown-link">Back-end</a>
+                <a href="expertises/devops.html" class="nav_menu_link inner w-dropdown-link">DevOps</a>
+              </nav>
+            </div>
+            <a href="pourquoi-techflow.html" class="nav_menu_link w-nav-link">Pourquoi Techflow</a>
+            <a href="comment-ca-marche.html" aria-current="page" class="nav_menu_link w-nav-link w--current">Comment ça marche</a>
+            <a href="contact.html" class="o-button nav w-button">Discutons de vos besoins</a>
+          </nav>
+          <a href="contact.html" class="o-button nav mobile w-button">Discutons de vos besoins</a>
+          <a href="index.html" class="nav_brand mobile w-nav-brand"><img src="images/techflow-connect.svg" loading="lazy" alt="Techflow Connect logo" class="nav_logo"></a>
+          <div class="nav_button w-nav-button">
+            <div class="icon-2 w-icon-nav-menu"></div>
+          </div>
+          <div class="btn-custom-code w-embed w-script">
+            <script>
+// Wait until the DOM is ready
+document.addEventListener("DOMContentLoaded", function() {
+  // Your SVG icon URL
+  const iconURL = "https://cdn.prod.website-files.com/68e9ba40dcc96438485d67bb/68ebcdfb1429cddbf6a2a28c_button-icon.svg";
+  // Find all buttons with class "o-button"
+  const buttons = document.querySelectorAll(".o-button");
+  buttons.forEach(button => {
+    // Check if the icon already exists (to avoid duplicates)
+    if (!button.querySelector(".o-button__icon")) {
+      // Create the icon element
+      const icon = document.createElement("img");
+      icon.src = iconURL;
+      icon.alt = "icon";
+      icon.classList.add("o-button__icon");
+      // Insert the icon at the end of the button
+      button.appendChild(icon);
+    }
+  });
+});
+</script>
+            <style>
+/* Layout: text + icon on the right */
+.o-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+/* Icon styling */
+.o-button__icon {
+  width: 22px;
+  height: 22px;
+  transition: transform 0.4s ease;
+}
+/* Hover animation: rotate the icon */
+.o-button:hover .o-button__icon {
+  transform: rotate(360deg);
+}
+/* Optional continuous spin (just add this class in Webflow Designer) */
+.o-button__icon.spin-continuous {
+  animation: spin 2s linear infinite;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+</style>
+          </div>
+        </div>
+      </div>
+      <div class="w-embed">
+        <style>
+/* ---------- Global Custom Bullet Style ---------- */
+ul {
+  list-style: none;       /* remove default bullets */
+  padding-left: 0;
+  margin: 1rem 0;
+}
+ul li {
+  position: relative;
+  padding-left: 1.5rem;   /* space for the custom bullet */
+  margin-bottom: 0.75rem;
+}
+/* the bullet circle */
+ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.5rem;           /* vertically center the bullet */
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #2563eb;    /* brand color — blue example */
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0); /* soft outer glow */
+}
+/* respect reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  ul li::before {
+    transition: none;
+    transform: none;
+  }
+}
+/* ---------- Custom Text Highlight ---------- */
+::selection {
+  background: #2563eb;     /* highlight background (same as bullet color) */
+  color: #ffffff;          /* highlight text color */
+}
+/* for Firefox specifically */
+::-moz-selection {
+  background: #2563eb;
+  color: #ffffff;
+}
+</style>
+      </div>
+    </div>
+    <section class="o-section hero">
+      <div class="w-layout-blockcontainer o-container hero w-container">
+        <div class="o-wrapper hero">
+          <div class="o-content hero">
+            <h1 class="hero_heading">Construisons <span class="heading-style">ensemble</span> votre équipe idéale<br></h1>
+            <p class="text-size-regular">Trouvez le plan parfait pour renforcer vos équipes tech</p>
+            <div id="w-node-f63cbc6a-01b0-c56e-95d4-065080c06eda-4be940e6" class="o-button_group">
+              <a href="https://calendly.com/arthur-techflow-connect/30min" target="_blank" class="o-button w-button">Discutons de vos besoins</a>
+            </div>
+          </div>
+        </div><img src="images/compressed_d4518d885a982bbe04d9b7e98c3cacb40ab119ff.jpg" loading="lazy" sizes="100vw" srcset="images/compressed_d4518d885a982bbe04d9b7e98c3cacb40ab119ff-p-500.jpg 500w, images/compressed_d4518d885a982bbe04d9b7e98c3cacb40ab119ff-p-800.jpg 800w, images/compressed_d4518d885a982bbe04d9b7e98c3cacb40ab119ff-p-1080.jpg 1080w, images/compressed_d4518d885a982bbe04d9b7e98c3cacb40ab119ff-p-1600.jpg 1600w, images/compressed_d4518d885a982bbe04d9b7e98c3cacb40ab119ff-p-2000.jpg 2000w, images/compressed_d4518d885a982bbe04d9b7e98c3cacb40ab119ff-p-2600.jpg 2600w, images/compressed_d4518d885a982bbe04d9b7e98c3cacb40ab119ff-p-3200.jpg 3200w, images/compressed_d4518d885a982bbe04d9b7e98c3cacb40ab119ff.jpg 4096w" alt="Tech team collaborating around a laptop" class="o-image hero mobile">
+      </div><img src="images/how-does-it-work.jpg" loading="lazy" alt="Two men organizing sticky notes on a glass wall " class="o-image hero">
+    </section>
+    <div id="2021" data-w-id="5d81b37d-2765-bce6-1b94-7f2093591824" class="new-section">
+      <div class="container flex-verticle">
+        <div class="o-content timeline">
+          <div class="o-icon_wrapper">
+            <div class="icon-partner w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 12 18" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                <path d="M0.0296227 3.34676C0.0296227 2.97747 0.00423145 2.60814 0.0296227 2.23881C0.11426 1.28192 0.952171 0.534874 1.97628 0.509692C2.56028 0.492905 3.13582 0.501299 3.71982 0.509692C4.79471 0.543268 5.60723 1.32389 5.65801 2.3899C5.6834 2.94389 5.66648 3.49785 5.66648 4.05184C5.66648 5.26894 6.53824 6.15868 7.74856 6.17547C8.25638 6.17547 8.77267 6.17547 9.2805 6.17547C10.5501 6.17547 11.388 7.01485 11.3795 8.25713C11.3795 8.81112 11.3795 9.36511 11.3626 9.9191C11.3287 10.9599 10.5501 11.749 9.50055 11.7993C8.89963 11.8245 8.29024 11.7993 7.68931 11.8161C6.56363 11.8329 5.66648 12.7394 5.65801 13.8558C5.65801 14.4098 5.67494 14.9638 5.65801 15.5178C5.63262 16.6509 4.80317 17.4735 3.66057 17.4903C3.07657 17.4987 2.50104 17.5071 1.91704 17.4903C0.842143 17.4483 0.0465506 16.6509 0.0126956 15.5765C-0.00423187 14.9974 -0.00423187 14.4266 0.0126956 13.8474C0.0296231 12.6723 0.867534 11.8749 2.06092 11.8581C2.59414 11.8581 3.12735 11.8581 3.66903 11.8581C4.8201 11.8413 5.70033 10.9851 5.72572 9.84356C5.74265 9.28957 5.74265 8.73558 5.72572 8.18159C5.6834 6.99806 4.80317 6.15868 3.61825 6.15029C3.12735 6.15029 2.64492 6.15029 2.15402 6.15029C0.816751 6.15029 0.0296227 5.36967 0.0296227 4.05184C0.0296227 3.81681 0.0296227 3.59018 0.0296227 3.35516V3.34676Z" fill="currentColor"></path>
+              </svg></div>
+            <p class="text-size-regular">Rien de plus simple</p>
+          </div>
+          <h1 class="heading-style-h2">Un processus <br><span class="heading-style">fluide</span> en 5 étapes</h1>
+          <p class="text-size-regular">Délocalisez des développeurs n&#x27;a <span class="italic">jamais été aussi simple</span> : nous sélectionnons les profils adéquats et nous assurons de leur bonne intégration à vos équipes”</p>
+        </div>
+        <div class="timeline-wrapper">
+          <div class="timeline-content-wrapper">
+            <div class="timeline-item"></div>
+            <div class="timeline-item left">
+              <div class="scoll-item-title left">
+                <h3 class="heading-style-h3 scroll">Sourcing et<br>pré-sélection</h3>
+                <h3 class="heading-style-h3 number">2</h3>
+              </div>
+              <div class="scroll-dot timeline left"></div>
+              <div class="o-icon timeline w-embed"><svg width="45" height="25" viewbox="0 0 45 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4.09091 25C2.96591 25 2.00318 24.5924 1.20273 23.7771C0.402276 22.9618 0.0013671 21.9806 3.46687e-06 20.8333C-0.00136017 19.6861 0.399549 18.7056 1.20273 17.8917C2.00591 17.0778 2.96864 16.6694 4.09091 16.6667H4.62887C4.78159 16.6667 4.94318 16.7014 5.11364 16.7708L14.4205 7.29167C14.3523 7.11806 14.3182 6.95278 14.3182 6.79584V6.25C14.3182 5.10417 14.7191 4.12361 15.5209 3.30834C16.3227 2.49306 17.2855 2.08473 18.4091 2.08334C19.5327 2.08195 20.4961 2.49028 21.2993 3.30834C22.1025 4.12639 22.5027 5.10695 22.5 6.25C22.5 6.31945 22.4659 6.66667 22.3977 7.29167L27.6136 12.6042C27.7841 12.5347 27.9464 12.5 28.1004 12.5H29.1743C29.327 12.5 29.4886 12.5347 29.6591 12.6042L36.9204 5.20834C36.8523 5.03472 36.8182 4.86945 36.8182 4.7125V4.16667C36.8182 3.02084 37.2191 2.04028 38.0209 1.225C38.8227 0.409725 39.7854 0.00139242 40.9091 3.53108e-06C42.0327 -0.00138536 42.9961 0.406947 43.7993 1.225C44.6025 2.04306 45.0027 3.02361 45 4.16667C44.9973 5.30972 44.597 6.29097 43.7993 7.11042C43.0016 7.92986 42.0382 8.3375 40.9091 8.33333H40.3732C40.2191 8.33333 40.0568 8.29861 39.8864 8.22917L32.625 15.625C32.6932 15.7986 32.7273 15.9639 32.7273 16.1208V16.6667C32.7273 17.8125 32.327 18.7937 31.5266 19.6104C30.7261 20.4271 29.7627 20.8347 28.6364 20.8333C27.51 20.8319 26.5473 20.4243 25.7482 19.6104C24.9491 18.7965 24.5482 17.8153 24.5455 16.6667V16.1208C24.5455 15.9639 24.5795 15.7986 24.6477 15.625L19.4318 10.3125C19.2614 10.3819 19.0991 10.4167 18.945 10.4167H18.4091C18.3409 10.4167 18 10.3819 17.3864 10.3125L8.07955 19.7917C8.14773 19.9653 8.18182 20.1306 8.18182 20.2875V20.8333C8.18182 21.9792 7.78159 22.9604 6.98114 23.7771C6.18068 24.5937 5.21727 25.0014 4.09091 25Z" fill="#4E65F6"></path>
+                </svg></div>
+              <div class="text-size-medium m light">Nous identifions les profils adéquats dans notre vivier de développeurs. Chaque profil proposé a déjà fait l’objet de <span class="italic">tests techniques</span>, de revues de code et de missions encadrées par nos chefs de projet.</div>
+            </div>
+            <div class="timeline-item"></div>
+            <div class="timeline-item left">
+              <div class="scoll-item-title left">
+                <h3 class="heading-style-h3 scroll">Intégration opérationnelle</h3>
+                <h3 class="heading-style-h3 number">4</h3>
+              </div>
+              <div class="scroll-dot timeline left"></div>
+              <div class="o-icon timeline w-embed"><svg width="49" height="49" viewbox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M47 47L38.1188 38.1188M23.15 44.3C28.7593 44.3 34.1389 42.0717 38.1053 38.1053C42.0717 34.1389 44.3 28.7593 44.3 23.15C44.3 17.5407 42.0717 12.1611 38.1053 8.19469C34.1389 4.2283 28.7593 2 23.15 2C17.5407 2 12.1611 4.2283 8.19469 8.19469C4.2283 12.1611 2 17.5407 2 23.15C2 28.7593 4.2283 34.1389 8.19469 38.1053C12.1611 42.0717 17.5407 44.3 23.15 44.3Z" stroke="#4E65F6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path d="M19.1004 15.4999L11.9004 22.6999L19.1004 29.8999M26.3004 15.4999L33.5004 22.6999L26.3004 29.8999" stroke="#4E65F6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg></div>
+              <div class="text-size-medium m light">Nos <span class="italic">chefs de projet francophones</span> assurent l’onboarding technique et méthodologique. Les développeurs sont intégrés à vos outils (Slack, Jira, GitHub, etc.) et participent à vos rituels agiles (daily, sprint planning, review).</div>
+            </div>
+            <div class="timeline-item"></div>
+          </div>
+          <div id="w-node-_5d81b37d-2765-bce6-1b94-7f2093591850-4be940e6" class="timeline-track">
+            <div class="dot _9"></div>
+            <div class="dot _8"></div>
+            <div class="dot _7"></div>
+            <div class="dot _6"></div>
+            <div class="dot _5"></div>
+            <div class="dot _4"></div>
+            <div class="dot _3"></div>
+            <div class="dot _2"></div>
+            <div class="dot"></div>
+            <div class="dot _1"></div>
+            <div class="thumb-thumb"></div>
+          </div>
+          <div class="timeline-content-wrapper">
+            <div class="timeline-item right">
+              <div class="scoll-item-title">
+                <h3 class="heading-style-h3 number">1</h3>
+                <h3 class="heading-style-h3 scroll">Diagnostic <br>et cadrage du besoin</h3>
+              </div>
+              <div class="scroll-dot timeline right"></div>
+              <div class="o-icon timeline w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 46 46" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                  <path d="M23 35.6709C23.7244 35.6709 24.4194 35.9585 24.9316 36.4707C25.4439 36.9829 25.7314 37.678 25.7314 38.4023V43.0186C25.7314 43.743 25.4439 44.438 24.9316 44.9502C24.4194 45.4624 23.7244 45.75 23 45.75C22.2756 45.75 21.5806 45.4624 21.0684 44.9502C20.5561 44.438 20.2686 43.743 20.2686 43.0186V38.4023C20.2686 37.678 20.5561 36.9829 21.0684 36.4707C21.5806 35.9585 22.2756 35.6709 23 35.6709ZM33.9023 31.1699C34.2616 31.1699 34.6174 31.2412 34.9492 31.3789C35.2808 31.5165 35.5823 31.7176 35.8359 31.9717L39.0957 35.2314L39.2812 35.4297C39.4566 35.6363 39.6005 35.8683 39.708 36.1182C39.8512 36.4512 39.9273 36.8093 39.9307 37.1719C39.934 37.5346 39.8647 37.8947 39.7275 38.2305C39.5903 38.5662 39.3872 38.8714 39.1309 39.1279C38.8746 39.3844 38.5699 39.5872 38.2344 39.7246C37.8988 39.8621 37.5393 39.9316 37.1768 39.9287C36.8142 39.9257 36.4553 39.8509 36.1221 39.708C35.7901 39.5656 35.4898 39.358 35.2383 39.0986L31.9727 35.8359C31.7189 35.5823 31.5173 35.2816 31.3799 34.9502C31.2425 34.6187 31.1719 34.2631 31.1719 33.9043C31.1719 33.5454 31.2425 33.1899 31.3799 32.8584C31.4467 32.6973 31.5283 32.5433 31.624 32.3984H31.543L31.9688 31.9727C32.2224 31.7184 32.5237 31.5166 32.8555 31.3789C33.1873 31.2412 33.5431 31.17 33.9023 31.1699ZM12.0977 31.1729C12.7306 31.1729 13.3434 31.3933 13.8301 31.791L14.0312 31.9717V31.9727C14.5426 32.4848 14.83 33.1786 14.8301 33.9023C14.8301 34.5357 14.6105 35.1469 14.2129 35.6328L14.0312 35.833L10.7588 39.1055L10.7578 39.1045C10.24 39.5868 9.55612 39.8504 8.84863 39.8379C8.14096 39.8254 7.46532 39.5386 6.96484 39.0381C6.46448 38.5376 6.1785 37.8619 6.16602 37.1543C6.15363 36.4468 6.41601 35.7619 6.89844 35.2441L6.9043 35.2383L10.167 31.9727V31.9717C10.6792 31.4602 11.3738 31.1729 12.0977 31.1729ZM7.60059 20.2686C8.32502 20.2686 9.01996 20.5561 9.53223 21.0684C10.0445 21.5806 10.332 22.2755 10.332 23C10.332 23.7245 10.0445 24.4194 9.53223 24.9316C9.01996 25.4439 8.32502 25.7314 7.60059 25.7314H2.98145C2.25704 25.7314 1.56204 25.4439 1.0498 24.9316C0.537581 24.4194 0.25 23.7244 0.25 23C0.25 22.2756 0.537582 21.5806 1.0498 21.0684C1.56204 20.5561 2.25704 20.2686 2.98145 20.2686H7.60059ZM43.0186 20.2686C43.743 20.2686 44.438 20.5561 44.9502 21.0684C45.4624 21.5806 45.75 22.2756 45.75 23C45.75 23.7244 45.4624 24.4194 44.9502 24.9316C44.438 25.4439 43.743 25.7314 43.0186 25.7314H38.3994C37.675 25.7314 36.98 25.4439 36.4678 24.9316C35.9555 24.4194 35.668 23.7245 35.668 23C35.668 22.2755 35.9555 21.5806 36.4678 21.0684C36.98 20.5561 37.675 20.2686 38.3994 20.2686H43.0186ZM37.167 6.10059C37.5258 6.10062 37.8814 6.17124 38.2129 6.30859C38.5443 6.44597 38.8451 6.64764 39.0986 6.90137C39.3524 7.15495 39.554 7.45574 39.6914 7.78711C39.8288 8.11856 39.8994 8.47423 39.8994 8.83301C39.8994 9.19184 39.8288 9.54741 39.6914 9.87891C39.554 10.2104 39.3525 10.5119 39.0986 10.7656L35.8359 14.0312C35.3236 14.5435 34.6288 14.831 33.9043 14.8311C33.1796 14.8311 32.4841 14.5437 31.9717 14.0312C31.4594 13.5188 31.1719 12.8232 31.1719 12.0986C31.172 11.3742 31.4595 10.6793 31.9717 10.167L35.2344 6.90137C35.4881 6.64753 35.7896 6.44598 36.1211 6.30859C36.4526 6.17124 36.8082 6.10059 37.167 6.10059ZM8.83496 6.09863C9.5604 6.09908 10.2558 6.38817 10.7686 6.90137L11.0137 7.14648L11.0068 7.14941L14.0244 10.1699L14.0273 10.1729C14.5252 10.6878 14.8008 11.3785 14.7949 12.0947C14.7889 12.8108 14.5022 13.4963 13.9961 14.0029C13.4899 14.5095 12.8049 14.7971 12.0889 14.8037C11.3728 14.8103 10.6824 14.5352 10.167 14.0381L10.1641 14.0342L6.89746 10.7686C6.38481 10.2553 6.09741 9.55939 6.09766 8.83398C6.098 8.10841 6.38614 7.41225 6.89941 6.89941C7.41274 6.38657 8.10935 6.09829 8.83496 6.09863ZM23 0.25C23.7244 0.25 24.4194 0.537581 24.9316 1.0498C25.4439 1.56204 25.7314 2.25704 25.7314 2.98145V7.60059C25.7314 8.32502 25.4439 9.01996 24.9316 9.53223C24.4194 10.0445 23.7245 10.332 23 10.332C22.2755 10.332 21.5806 10.0445 21.0684 9.53223C20.5561 9.01996 20.2686 8.32502 20.2686 7.60059V2.98145C20.2686 2.25704 20.5561 1.56204 21.0684 1.0498C21.5806 0.537582 22.2756 0.25 23 0.25Z" fill="currentColor" stroke="currentColor" stroke-width="0.5"></path>
+                </svg></div>
+              <div class="text-size-medium m light">Nous commençons par un échange approfondi pour comprendre <span class="italic">vos besoins</span>, enjeux techniques, et contraintes (stack, méthode de travail, délais, budget).<br><span class="italic">L’objectif :</span> cadrer précisément le(s) profil(s) idéal(s) et la structure de l’équipe à constituer.<br></div>
+            </div>
+            <div class="timeline-item"></div>
+            <div class="timeline-item right">
+              <div class="scoll-item-title">
+                <h3 class="heading-style-h3 number">3</h3>
+                <h3 class="heading-style-h3 scroll">Validation client et ajustements</h3>
+              </div>
+              <div class="scroll-dot timeline right"></div>
+              <div class="o-icon timeline w-embed"><svg width="45" height="47" viewbox="0 0 45 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7.3125 4.7C5.76 4.7 4.5 6.016 4.5 7.6375V14.1C4.5 14.7233 4.26295 15.321 3.84099 15.7617C3.41903 16.2024 2.84674 16.45 2.25 16.45C1.65326 16.45 1.08097 16.2024 0.65901 15.7617C0.237053 15.321 0 14.7233 0 14.1V7.6375C0 5.61191 0.770422 3.66928 2.14178 2.23697C3.51314 0.804663 5.3731 0 7.3125 0H13.5C14.0967 0 14.669 0.247588 15.091 0.688299C15.5129 1.12901 15.75 1.72674 15.75 2.35C15.75 2.97326 15.5129 3.57099 15.091 4.0117C14.669 4.45241 14.0967 4.7 13.5 4.7H7.3125ZM7.3125 42.3C5.76 42.3 4.5 40.984 4.5 39.3625V32.9C4.5 32.2767 4.26295 31.679 3.84099 31.2383C3.41903 30.7976 2.84674 30.55 2.25 30.55C1.65326 30.55 1.08097 30.7976 0.65901 31.2383C0.237053 31.679 0 32.2767 0 32.9V39.3625C0 40.3655 0.189143 41.3586 0.556631 42.2852C0.924118 43.2119 1.46275 44.0538 2.14178 44.763C2.82081 45.4722 3.62693 46.0348 4.51413 46.4186C5.40132 46.8024 6.35221 47 7.3125 47H13.5C14.0967 47 14.669 46.7524 15.091 46.3117C15.5129 45.871 15.75 45.2733 15.75 44.65C15.75 44.0267 15.5129 43.429 15.091 42.9883C14.669 42.5476 14.0967 42.3 13.5 42.3H7.3125ZM40.5 7.6375C40.5 6.016 39.24 4.7 37.6875 4.7H31.5C30.9033 4.7 30.331 4.45241 29.909 4.0117C29.4871 3.57099 29.25 2.97326 29.25 2.35C29.25 1.72674 29.4871 1.12901 29.909 0.688299C30.331 0.247588 30.9033 0 31.5 0H37.6875C38.6478 0 39.5987 0.19755 40.4859 0.58137C41.3731 0.96519 42.1792 1.52776 42.8582 2.23697C43.5372 2.94618 44.0759 3.78813 44.4434 4.71476C44.8109 5.64138 45 6.63453 45 7.6375V14.1C45 14.7233 44.7629 15.321 44.341 15.7617C43.919 16.2024 43.3467 16.45 42.75 16.45C42.1533 16.45 41.581 16.2024 41.159 15.7617C40.7371 15.321 40.5 14.7233 40.5 14.1V7.6375ZM37.6875 42.3C39.24 42.3 40.5 40.984 40.5 39.3625V32.9C40.5 32.2767 40.7371 31.679 41.159 31.2383C41.581 30.7976 42.1533 30.55 42.75 30.55C43.3467 30.55 43.919 30.7976 44.341 31.2383C44.7629 31.679 45 32.2767 45 32.9V39.3625C45 40.3655 44.8109 41.3586 44.4434 42.2852C44.0759 43.2119 43.5372 44.0538 42.8582 44.763C42.1792 45.4722 41.3731 46.0348 40.4859 46.4186C39.5987 46.8024 38.6478 47 37.6875 47H31.5C30.9033 47 30.331 46.7524 29.909 46.3117C29.4871 45.871 29.25 45.2733 29.25 44.65C29.25 44.0267 29.4871 43.429 29.909 42.9883C30.331 42.5476 30.9033 42.3 31.5 42.3H37.6875ZM11.25 11.75H18V18.8H11.25V11.75ZM27 18.8H18V28.2H11.25V35.25H18V28.2H27V35.25H33.75V28.2H27V18.8ZM27 18.8V11.75H33.75V18.8H27Z" fill="#4E65F6"></path>
+                </svg></div>
+              <div class="text-size-medium m light">Vous rencontrez directement les <span class="italic">profils présélectionnés</span>. Nous ajustons le dispositif selon vos retours pour garantir un alignement total entre vos besoins et nos propositions.</div>
+            </div>
+            <div class="timeline-item"></div>
+            <div class="timeline-item right">
+              <div class="scoll-item-title">
+                <h3 class="heading-style-h3 number">5</h3>
+                <h3 class="heading-style-h3 scroll">Suivi et pilotage continu</h3>
+              </div>
+              <div class="scroll-dot timeline right"></div>
+              <div class="o-icon timeline w-embed"><svg width="45" height="45" viewbox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M29.044 0.588584C29.2306 0.775136 29.3787 0.99662 29.4797 1.24039C29.5806 1.48415 29.6326 1.74543 29.6326 2.00929C29.6326 2.27314 29.5806 2.53442 29.4797 2.77819C29.3787 3.02195 29.2306 3.24344 29.044 3.42999L23.2327 9.24137L29.044 15.0527C29.2306 15.2393 29.3786 15.4608 29.4796 15.7046C29.5805 15.9483 29.6325 16.2096 29.6325 16.4735C29.6325 16.7373 29.5805 16.9986 29.4796 17.2423C29.3786 17.4861 29.2306 17.7076 29.044 17.8942C28.8575 18.0807 28.636 18.2287 28.3922 18.3297C28.1485 18.4307 27.8872 18.4826 27.6233 18.4826C27.3595 18.4826 27.0982 18.4307 26.8545 18.3297C26.6107 18.2287 26.3892 18.0807 26.2026 17.8942L18.9706 10.6621C18.784 10.4755 18.6359 10.254 18.5349 10.0103C18.434 9.7665 18.382 9.50523 18.382 9.24137C18.382 8.97751 18.434 8.71624 18.5349 8.47247C18.6359 8.2287 18.784 8.00722 18.9706 7.82067L26.2026 0.588584C26.3892 0.401983 26.6107 0.25396 26.8544 0.15297C27.0982 0.0519796 27.3595 0 27.6233 0C27.8872 0 28.1485 0.0519796 28.3922 0.15297C28.636 0.25396 28.8575 0.401983 29.044 0.588584ZM34.3379 0.588584C34.5245 0.401983 34.746 0.25396 34.9897 0.15297C35.2335 0.0519796 35.4948 0 35.7586 0C36.0225 0 36.2838 0.0519796 36.5275 0.15297C36.7713 0.25396 36.9928 0.401983 37.1793 0.588584L44.4114 7.82067C44.598 8.00722 44.746 8.2287 44.847 8.47247C44.948 8.71624 45 8.97751 45 9.24137C45 9.50523 44.948 9.7665 44.847 10.0103C44.746 10.254 44.598 10.4755 44.4114 10.6621L37.1793 17.8942C36.9928 18.0807 36.7713 18.2287 36.5275 18.3297C36.2837 18.4307 36.0225 18.4826 35.7586 18.4826C35.4948 18.4826 35.2335 18.4307 34.9898 18.3297C34.746 18.2287 34.5245 18.0807 34.3379 17.8942C34.1514 17.7076 34.0034 17.4861 33.9024 17.2423C33.8014 16.9986 33.7495 16.7373 33.7495 16.4735C33.7495 16.2096 33.8014 15.9483 33.9024 15.7046C34.0034 15.4608 34.1514 15.2393 34.3379 15.0527L40.1493 9.24137L34.3379 3.42999C34.1513 3.24344 34.0033 3.02195 33.9023 2.77819C33.8013 2.53442 33.7493 2.27314 33.7493 2.00929C33.7493 1.74543 33.8013 1.48415 33.9023 1.24039C34.0033 0.99662 34.1513 0.775136 34.3379 0.588584ZM41.3836 36.9644H28.2501L29.8573 40.9822H32.1426C32.6754 40.9822 33.1864 41.1938 33.5631 41.5706C33.9398 41.9473 34.1515 42.4583 34.1515 42.9911C34.1515 43.5239 33.9398 44.0349 33.5631 44.4116C33.1864 44.7883 32.6754 45 32.1426 45H12.857C12.3242 45 11.8133 44.7883 11.4365 44.4116C11.0598 44.0349 10.8481 43.5239 10.8481 42.9911C10.8481 42.4583 11.0598 41.9473 11.4365 41.5706C11.8133 41.1938 12.3242 40.9822 12.857 40.9822H15.1424L16.7495 36.9644H3.61604C2.65701 36.9644 1.73725 36.5834 1.05911 35.9052C0.380975 35.2271 0 34.3073 0 33.3483L0 9.24137C0 7.24531 1.61999 5.62533 3.61604 5.62533H12.857C13.3898 5.62533 13.9008 5.83698 14.2776 6.21372C14.6543 6.59047 14.8659 7.10144 14.8659 7.63424C14.8659 8.16704 14.6543 8.67801 14.2776 9.05476C13.9008 9.4315 13.3898 9.64315 12.857 9.64315H4.01782V32.9465H40.9818V22.5002C40.9818 21.9674 41.1935 21.4564 41.5702 21.0797C41.9469 20.7029 42.4579 20.4913 42.9907 20.4913C43.5235 20.4913 44.0345 20.7029 44.4112 21.0797C44.788 21.4564 44.9996 21.9674 44.9996 22.5002V33.3483C44.9996 35.3444 43.3796 36.9644 41.3836 36.9644Z" fill="#4E65F6"></path>
+                </svg></div>
+              <div class="text-size-medium m light">Tout au long de la mission, nos chefs de projet supervisent les livrables et la communication entre les équipes. Nous assurons un reporting régulier, des points d’avancement et un <span class="italic">remplacement express</span> en cas de besoin.</div>
+            </div>
+          </div>
+        </div>
+        <div data-w-id="854bc114-902a-1aa9-986c-554803fa3ddd" class="bar-mobile mod">
+          <div class="bar"></div>
+          <div class="bar-content">
+            <div class="timeline-item right">
+              <div class="scoll-item-title">
+                <h3 class="heading-style-h3 number">1</h3>
+                <h3 class="heading-style-h3 scroll">Diagnostic <br>et cadrage du besoin</h3>
+              </div>
+              <div class="scroll-dot timeline right"></div>
+              <div class="o-icon timeline w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 46 46" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                  <path d="M23 35.6709C23.7244 35.6709 24.4194 35.9585 24.9316 36.4707C25.4439 36.9829 25.7314 37.678 25.7314 38.4023V43.0186C25.7314 43.743 25.4439 44.438 24.9316 44.9502C24.4194 45.4624 23.7244 45.75 23 45.75C22.2756 45.75 21.5806 45.4624 21.0684 44.9502C20.5561 44.438 20.2686 43.743 20.2686 43.0186V38.4023C20.2686 37.678 20.5561 36.9829 21.0684 36.4707C21.5806 35.9585 22.2756 35.6709 23 35.6709ZM33.9023 31.1699C34.2616 31.1699 34.6174 31.2412 34.9492 31.3789C35.2808 31.5165 35.5823 31.7176 35.8359 31.9717L39.0957 35.2314L39.2812 35.4297C39.4566 35.6363 39.6005 35.8683 39.708 36.1182C39.8512 36.4512 39.9273 36.8093 39.9307 37.1719C39.934 37.5346 39.8647 37.8947 39.7275 38.2305C39.5903 38.5662 39.3872 38.8714 39.1309 39.1279C38.8746 39.3844 38.5699 39.5872 38.2344 39.7246C37.8988 39.8621 37.5393 39.9316 37.1768 39.9287C36.8142 39.9257 36.4553 39.8509 36.1221 39.708C35.7901 39.5656 35.4898 39.358 35.2383 39.0986L31.9727 35.8359C31.7189 35.5823 31.5173 35.2816 31.3799 34.9502C31.2425 34.6187 31.1719 34.2631 31.1719 33.9043C31.1719 33.5454 31.2425 33.1899 31.3799 32.8584C31.4467 32.6973 31.5283 32.5433 31.624 32.3984H31.543L31.9688 31.9727C32.2224 31.7184 32.5237 31.5166 32.8555 31.3789C33.1873 31.2412 33.5431 31.17 33.9023 31.1699ZM12.0977 31.1729C12.7306 31.1729 13.3434 31.3933 13.8301 31.791L14.0312 31.9717V31.9727C14.5426 32.4848 14.83 33.1786 14.8301 33.9023C14.8301 34.5357 14.6105 35.1469 14.2129 35.6328L14.0312 35.833L10.7588 39.1055L10.7578 39.1045C10.24 39.5868 9.55612 39.8504 8.84863 39.8379C8.14096 39.8254 7.46532 39.5386 6.96484 39.0381C6.46448 38.5376 6.1785 37.8619 6.16602 37.1543C6.15363 36.4468 6.41601 35.7619 6.89844 35.2441L6.9043 35.2383L10.167 31.9727V31.9717C10.6792 31.4602 11.3738 31.1729 12.0977 31.1729ZM7.60059 20.2686C8.32502 20.2686 9.01996 20.5561 9.53223 21.0684C10.0445 21.5806 10.332 22.2755 10.332 23C10.332 23.7245 10.0445 24.4194 9.53223 24.9316C9.01996 25.4439 8.32502 25.7314 7.60059 25.7314H2.98145C2.25704 25.7314 1.56204 25.4439 1.0498 24.9316C0.537581 24.4194 0.25 23.7244 0.25 23C0.25 22.2756 0.537582 21.5806 1.0498 21.0684C1.56204 20.5561 2.25704 20.2686 2.98145 20.2686H7.60059ZM43.0186 20.2686C43.743 20.2686 44.438 20.5561 44.9502 21.0684C45.4624 21.5806 45.75 22.2756 45.75 23C45.75 23.7244 45.4624 24.4194 44.9502 24.9316C44.438 25.4439 43.743 25.7314 43.0186 25.7314H38.3994C37.675 25.7314 36.98 25.4439 36.4678 24.9316C35.9555 24.4194 35.668 23.7245 35.668 23C35.668 22.2755 35.9555 21.5806 36.4678 21.0684C36.98 20.5561 37.675 20.2686 38.3994 20.2686H43.0186ZM37.167 6.10059C37.5258 6.10062 37.8814 6.17124 38.2129 6.30859C38.5443 6.44597 38.8451 6.64764 39.0986 6.90137C39.3524 7.15495 39.554 7.45574 39.6914 7.78711C39.8288 8.11856 39.8994 8.47423 39.8994 8.83301C39.8994 9.19184 39.8288 9.54741 39.6914 9.87891C39.554 10.2104 39.3525 10.5119 39.0986 10.7656L35.8359 14.0312C35.3236 14.5435 34.6288 14.831 33.9043 14.8311C33.1796 14.8311 32.4841 14.5437 31.9717 14.0312C31.4594 13.5188 31.1719 12.8232 31.1719 12.0986C31.172 11.3742 31.4595 10.6793 31.9717 10.167L35.2344 6.90137C35.4881 6.64753 35.7896 6.44598 36.1211 6.30859C36.4526 6.17124 36.8082 6.10059 37.167 6.10059ZM8.83496 6.09863C9.5604 6.09908 10.2558 6.38817 10.7686 6.90137L11.0137 7.14648L11.0068 7.14941L14.0244 10.1699L14.0273 10.1729C14.5252 10.6878 14.8008 11.3785 14.7949 12.0947C14.7889 12.8108 14.5022 13.4963 13.9961 14.0029C13.4899 14.5095 12.8049 14.7971 12.0889 14.8037C11.3728 14.8103 10.6824 14.5352 10.167 14.0381L10.1641 14.0342L6.89746 10.7686C6.38481 10.2553 6.09741 9.55939 6.09766 8.83398C6.098 8.10841 6.38614 7.41225 6.89941 6.89941C7.41274 6.38657 8.10935 6.09829 8.83496 6.09863ZM23 0.25C23.7244 0.25 24.4194 0.537581 24.9316 1.0498C25.4439 1.56204 25.7314 2.25704 25.7314 2.98145V7.60059C25.7314 8.32502 25.4439 9.01996 24.9316 9.53223C24.4194 10.0445 23.7245 10.332 23 10.332C22.2755 10.332 21.5806 10.0445 21.0684 9.53223C20.5561 9.01996 20.2686 8.32502 20.2686 7.60059V2.98145C20.2686 2.25704 20.5561 1.56204 21.0684 1.0498C21.5806 0.537582 22.2756 0.25 23 0.25Z" fill="currentColor" stroke="currentColor" stroke-width="0.5"></path>
+                </svg></div>
+              <div class="text-size-medium m light">Nous commençons par un échange approfondi pour comprendre vos besoins, enjeux techniques, et contraintes (stack, méthode de travail, délais, budget).<br><strong>L’objectif : cadrer précisément le(s) profil(s) idéal(s) et la structure de l’équipe à constituer.</strong></div>
+            </div>
+            <div class="timeline-item left">
+              <div class="scoll-item-title left">
+                <h3 class="heading-style-h3 scroll">Sourcinget pré-sélection</h3>
+                <h3 class="heading-style-h3 number">2</h3>
+              </div>
+              <div class="scroll-dot timeline left"></div>
+              <div class="o-icon timeline w-embed"><svg width="45" height="25" viewbox="0 0 45 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4.09091 25C2.96591 25 2.00318 24.5924 1.20273 23.7771C0.402276 22.9618 0.0013671 21.9806 3.46687e-06 20.8333C-0.00136017 19.6861 0.399549 18.7056 1.20273 17.8917C2.00591 17.0778 2.96864 16.6694 4.09091 16.6667H4.62887C4.78159 16.6667 4.94318 16.7014 5.11364 16.7708L14.4205 7.29167C14.3523 7.11806 14.3182 6.95278 14.3182 6.79584V6.25C14.3182 5.10417 14.7191 4.12361 15.5209 3.30834C16.3227 2.49306 17.2855 2.08473 18.4091 2.08334C19.5327 2.08195 20.4961 2.49028 21.2993 3.30834C22.1025 4.12639 22.5027 5.10695 22.5 6.25C22.5 6.31945 22.4659 6.66667 22.3977 7.29167L27.6136 12.6042C27.7841 12.5347 27.9464 12.5 28.1004 12.5H29.1743C29.327 12.5 29.4886 12.5347 29.6591 12.6042L36.9204 5.20834C36.8523 5.03472 36.8182 4.86945 36.8182 4.7125V4.16667C36.8182 3.02084 37.2191 2.04028 38.0209 1.225C38.8227 0.409725 39.7854 0.00139242 40.9091 3.53108e-06C42.0327 -0.00138536 42.9961 0.406947 43.7993 1.225C44.6025 2.04306 45.0027 3.02361 45 4.16667C44.9973 5.30972 44.597 6.29097 43.7993 7.11042C43.0016 7.92986 42.0382 8.3375 40.9091 8.33333H40.3732C40.2191 8.33333 40.0568 8.29861 39.8864 8.22917L32.625 15.625C32.6932 15.7986 32.7273 15.9639 32.7273 16.1208V16.6667C32.7273 17.8125 32.327 18.7937 31.5266 19.6104C30.7261 20.4271 29.7627 20.8347 28.6364 20.8333C27.51 20.8319 26.5473 20.4243 25.7482 19.6104C24.9491 18.7965 24.5482 17.8153 24.5455 16.6667V16.1208C24.5455 15.9639 24.5795 15.7986 24.6477 15.625L19.4318 10.3125C19.2614 10.3819 19.0991 10.4167 18.945 10.4167H18.4091C18.3409 10.4167 18 10.3819 17.3864 10.3125L8.07955 19.7917C8.14773 19.9653 8.18182 20.1306 8.18182 20.2875V20.8333C8.18182 21.9792 7.78159 22.9604 6.98114 23.7771C6.18068 24.5937 5.21727 25.0014 4.09091 25Z" fill="#4E65F6"></path>
+                </svg></div>
+              <div class="text-size-medium m light">Nous identifions les profils adéquats dans notre vivier de développeurs. Chaque profil proposé a déjà fait l’objet de tests techniques, de revues de code et de missions encadrées par nos chefs de projet.</div>
+            </div>
+            <div class="timeline-item right">
+              <div class="scoll-item-title">
+                <h3 class="heading-style-h3 number">3</h3>
+                <h3 class="heading-style-h3 scroll">Validation client et ajustements</h3>
+              </div>
+              <div class="scroll-dot timeline right"></div>
+              <div class="o-icon timeline w-embed"><svg width="45" height="47" viewbox="0 0 45 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7.3125 4.7C5.76 4.7 4.5 6.016 4.5 7.6375V14.1C4.5 14.7233 4.26295 15.321 3.84099 15.7617C3.41903 16.2024 2.84674 16.45 2.25 16.45C1.65326 16.45 1.08097 16.2024 0.65901 15.7617C0.237053 15.321 0 14.7233 0 14.1V7.6375C0 5.61191 0.770422 3.66928 2.14178 2.23697C3.51314 0.804663 5.3731 0 7.3125 0H13.5C14.0967 0 14.669 0.247588 15.091 0.688299C15.5129 1.12901 15.75 1.72674 15.75 2.35C15.75 2.97326 15.5129 3.57099 15.091 4.0117C14.669 4.45241 14.0967 4.7 13.5 4.7H7.3125ZM7.3125 42.3C5.76 42.3 4.5 40.984 4.5 39.3625V32.9C4.5 32.2767 4.26295 31.679 3.84099 31.2383C3.41903 30.7976 2.84674 30.55 2.25 30.55C1.65326 30.55 1.08097 30.7976 0.65901 31.2383C0.237053 31.679 0 32.2767 0 32.9V39.3625C0 40.3655 0.189143 41.3586 0.556631 42.2852C0.924118 43.2119 1.46275 44.0538 2.14178 44.763C2.82081 45.4722 3.62693 46.0348 4.51413 46.4186C5.40132 46.8024 6.35221 47 7.3125 47H13.5C14.0967 47 14.669 46.7524 15.091 46.3117C15.5129 45.871 15.75 45.2733 15.75 44.65C15.75 44.0267 15.5129 43.429 15.091 42.9883C14.669 42.5476 14.0967 42.3 13.5 42.3H7.3125ZM40.5 7.6375C40.5 6.016 39.24 4.7 37.6875 4.7H31.5C30.9033 4.7 30.331 4.45241 29.909 4.0117C29.4871 3.57099 29.25 2.97326 29.25 2.35C29.25 1.72674 29.4871 1.12901 29.909 0.688299C30.331 0.247588 30.9033 0 31.5 0H37.6875C38.6478 0 39.5987 0.19755 40.4859 0.58137C41.3731 0.96519 42.1792 1.52776 42.8582 2.23697C43.5372 2.94618 44.0759 3.78813 44.4434 4.71476C44.8109 5.64138 45 6.63453 45 7.6375V14.1C45 14.7233 44.7629 15.321 44.341 15.7617C43.919 16.2024 43.3467 16.45 42.75 16.45C42.1533 16.45 41.581 16.2024 41.159 15.7617C40.7371 15.321 40.5 14.7233 40.5 14.1V7.6375ZM37.6875 42.3C39.24 42.3 40.5 40.984 40.5 39.3625V32.9C40.5 32.2767 40.7371 31.679 41.159 31.2383C41.581 30.7976 42.1533 30.55 42.75 30.55C43.3467 30.55 43.919 30.7976 44.341 31.2383C44.7629 31.679 45 32.2767 45 32.9V39.3625C45 40.3655 44.8109 41.3586 44.4434 42.2852C44.0759 43.2119 43.5372 44.0538 42.8582 44.763C42.1792 45.4722 41.3731 46.0348 40.4859 46.4186C39.5987 46.8024 38.6478 47 37.6875 47H31.5C30.9033 47 30.331 46.7524 29.909 46.3117C29.4871 45.871 29.25 45.2733 29.25 44.65C29.25 44.0267 29.4871 43.429 29.909 42.9883C30.331 42.5476 30.9033 42.3 31.5 42.3H37.6875ZM11.25 11.75H18V18.8H11.25V11.75ZM27 18.8H18V28.2H11.25V35.25H18V28.2H27V35.25H33.75V28.2H27V18.8ZM27 18.8V11.75H33.75V18.8H27Z" fill="#4E65F6"></path>
+                </svg></div>
+              <div class="text-size-medium m light">Vous rencontrez directement les profils présélectionnés. Nous ajustons le dispositif selon vos retours pour garantir un alignement total entre vos besoins et nos propositions.</div>
+            </div>
+            <div class="timeline-item left">
+              <div class="scoll-item-title left">
+                <h3 class="heading-style-h3 scroll">Intégration opérationnelle</h3>
+                <h3 class="heading-style-h3 number">4</h3>
+              </div>
+              <div class="scroll-dot timeline left"></div>
+              <div class="o-icon timeline w-embed"><svg width="49" height="49" viewbox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M47 47L38.1188 38.1188M23.15 44.3C28.7593 44.3 34.1389 42.0717 38.1053 38.1053C42.0717 34.1389 44.3 28.7593 44.3 23.15C44.3 17.5407 42.0717 12.1611 38.1053 8.19469C34.1389 4.2283 28.7593 2 23.15 2C17.5407 2 12.1611 4.2283 8.19469 8.19469C4.2283 12.1611 2 17.5407 2 23.15C2 28.7593 4.2283 34.1389 8.19469 38.1053C12.1611 42.0717 17.5407 44.3 23.15 44.3Z" stroke="#4E65F6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path d="M19.1004 15.4999L11.9004 22.6999L19.1004 29.8999M26.3004 15.4999L33.5004 22.6999L26.3004 29.8999" stroke="#4E65F6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg></div>
+              <div class="text-size-medium m light">Nos chefs de projet francophones assurent l’onboarding technique et méthodologique. Les développeurs sont intégrés à vos outils (Slack, Jira, GitHub, etc.) et participent à vos rituels agiles (daily, sprint planning, review).</div>
+            </div>
+            <div class="timeline-item right">
+              <div class="scoll-item-title">
+                <h3 class="heading-style-h3 number">5</h3>
+                <h3 class="heading-style-h3 scroll">Suivi et pilotage continu</h3>
+              </div>
+              <div class="scroll-dot timeline right"></div>
+              <div class="o-icon timeline w-embed"><svg width="45" height="45" viewbox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M29.044 0.588584C29.2306 0.775136 29.3787 0.99662 29.4797 1.24039C29.5806 1.48415 29.6326 1.74543 29.6326 2.00929C29.6326 2.27314 29.5806 2.53442 29.4797 2.77819C29.3787 3.02195 29.2306 3.24344 29.044 3.42999L23.2327 9.24137L29.044 15.0527C29.2306 15.2393 29.3786 15.4608 29.4796 15.7046C29.5805 15.9483 29.6325 16.2096 29.6325 16.4735C29.6325 16.7373 29.5805 16.9986 29.4796 17.2423C29.3786 17.4861 29.2306 17.7076 29.044 17.8942C28.8575 18.0807 28.636 18.2287 28.3922 18.3297C28.1485 18.4307 27.8872 18.4826 27.6233 18.4826C27.3595 18.4826 27.0982 18.4307 26.8545 18.3297C26.6107 18.2287 26.3892 18.0807 26.2026 17.8942L18.9706 10.6621C18.784 10.4755 18.6359 10.254 18.5349 10.0103C18.434 9.7665 18.382 9.50523 18.382 9.24137C18.382 8.97751 18.434 8.71624 18.5349 8.47247C18.6359 8.2287 18.784 8.00722 18.9706 7.82067L26.2026 0.588584C26.3892 0.401983 26.6107 0.25396 26.8544 0.15297C27.0982 0.0519796 27.3595 0 27.6233 0C27.8872 0 28.1485 0.0519796 28.3922 0.15297C28.636 0.25396 28.8575 0.401983 29.044 0.588584ZM34.3379 0.588584C34.5245 0.401983 34.746 0.25396 34.9897 0.15297C35.2335 0.0519796 35.4948 0 35.7586 0C36.0225 0 36.2838 0.0519796 36.5275 0.15297C36.7713 0.25396 36.9928 0.401983 37.1793 0.588584L44.4114 7.82067C44.598 8.00722 44.746 8.2287 44.847 8.47247C44.948 8.71624 45 8.97751 45 9.24137C45 9.50523 44.948 9.7665 44.847 10.0103C44.746 10.254 44.598 10.4755 44.4114 10.6621L37.1793 17.8942C36.9928 18.0807 36.7713 18.2287 36.5275 18.3297C36.2837 18.4307 36.0225 18.4826 35.7586 18.4826C35.4948 18.4826 35.2335 18.4307 34.9898 18.3297C34.746 18.2287 34.5245 18.0807 34.3379 17.8942C34.1514 17.7076 34.0034 17.4861 33.9024 17.2423C33.8014 16.9986 33.7495 16.7373 33.7495 16.4735C33.7495 16.2096 33.8014 15.9483 33.9024 15.7046C34.0034 15.4608 34.1514 15.2393 34.3379 15.0527L40.1493 9.24137L34.3379 3.42999C34.1513 3.24344 34.0033 3.02195 33.9023 2.77819C33.8013 2.53442 33.7493 2.27314 33.7493 2.00929C33.7493 1.74543 33.8013 1.48415 33.9023 1.24039C34.0033 0.99662 34.1513 0.775136 34.3379 0.588584ZM41.3836 36.9644H28.2501L29.8573 40.9822H32.1426C32.6754 40.9822 33.1864 41.1938 33.5631 41.5706C33.9398 41.9473 34.1515 42.4583 34.1515 42.9911C34.1515 43.5239 33.9398 44.0349 33.5631 44.4116C33.1864 44.7883 32.6754 45 32.1426 45H12.857C12.3242 45 11.8133 44.7883 11.4365 44.4116C11.0598 44.0349 10.8481 43.5239 10.8481 42.9911C10.8481 42.4583 11.0598 41.9473 11.4365 41.5706C11.8133 41.1938 12.3242 40.9822 12.857 40.9822H15.1424L16.7495 36.9644H3.61604C2.65701 36.9644 1.73725 36.5834 1.05911 35.9052C0.380975 35.2271 0 34.3073 0 33.3483L0 9.24137C0 7.24531 1.61999 5.62533 3.61604 5.62533H12.857C13.3898 5.62533 13.9008 5.83698 14.2776 6.21372C14.6543 6.59047 14.8659 7.10144 14.8659 7.63424C14.8659 8.16704 14.6543 8.67801 14.2776 9.05476C13.9008 9.4315 13.3898 9.64315 12.857 9.64315H4.01782V32.9465H40.9818V22.5002C40.9818 21.9674 41.1935 21.4564 41.5702 21.0797C41.9469 20.7029 42.4579 20.4913 42.9907 20.4913C43.5235 20.4913 44.0345 20.7029 44.4112 21.0797C44.788 21.4564 44.9996 21.9674 44.9996 22.5002V33.3483C44.9996 35.3444 43.3796 36.9644 41.3836 36.9644Z" fill="#4E65F6"></path>
+                </svg></div>
+              <div class="text-size-medium m light">Tout au long de la mission, nos chefs de projet supervisent les livrables et la communication entre les équipes. Nous assurons un reporting régulier, des points d’avancement et un remplacement express en cas de besoin.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="o-section _4-card">
+      <div class="w-layout-blockcontainer o-container _4-card w-container">
+        <div class="o-wrapper _4-card">
+          <div class="o-content title-template">
+            <h1 class="heading-style-h2">Des <span class="heading-style">garanties solides</span> pour sécuriser vos projets</h1>
+            <p class="text-size-regular">Nous nous engageons à vous offrir une expérience d’offshoring sans risque et totalement maîtrisée.</p>
+          </div>
+          <div class="o-content _4-card">
+            <div class="card-item template">
+              <div class="o-icon pour w-embed"><svg width="54" height="54" viewbox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6.75 40.5C5.5125 40.5 4.4535 40.0598 3.573 39.1793C2.6925 38.2988 2.2515 37.239 2.25 36C2.2485 34.761 2.6895 33.702 3.573 32.823C4.4565 31.944 5.5155 31.503 6.75 31.5H7.34175C7.50975 31.5 7.6875 31.5375 7.875 31.6125L18.1125 21.375C18.0375 21.1875 18 21.009 18 20.8395V20.25C18 19.0125 18.441 17.9535 19.323 17.073C20.205 16.1925 21.264 15.7515 22.5 15.75C23.736 15.7485 24.7958 16.1895 25.6793 17.073C26.5628 17.9565 27.003 19.0155 27 20.25C27 20.325 26.9625 20.7 26.8875 21.375L32.625 27.1125C32.8125 27.0375 32.991 27 33.1605 27H34.3418C34.5098 27 34.6875 27.0375 34.875 27.1125L42.8625 19.125C42.7875 18.9375 42.75 18.759 42.75 18.5895V18C42.75 16.7625 43.191 15.7035 44.073 14.823C44.955 13.9425 46.014 13.5015 47.25 13.5C48.486 13.4985 49.5458 13.9395 50.4293 14.823C51.3128 15.7065 51.753 16.7655 51.75 18C51.747 19.2345 51.3068 20.2943 50.4293 21.1793C49.5518 22.0643 48.492 22.5045 47.25 22.5H46.6605C46.491 22.5 46.3125 22.4625 46.125 22.3875L38.1375 30.375C38.2125 30.5625 38.25 30.741 38.25 30.9105V31.5C38.25 32.7375 37.8098 33.7973 36.9293 34.6793C36.0488 35.5613 34.989 36.0015 33.75 36C32.511 35.9985 31.452 35.5583 30.573 34.6793C29.694 33.8003 29.253 32.7405 29.25 31.5V30.9105C29.25 30.741 29.2875 30.5625 29.3625 30.375L23.625 24.6375C23.4375 24.7125 23.259 24.75 23.0895 24.75H22.5C22.425 24.75 22.05 24.7125 21.375 24.6375L11.1375 34.875C11.2125 35.0625 11.25 35.241 11.25 35.4105V36C11.25 37.2375 10.8098 38.2973 9.92925 39.1793C9.04875 40.0613 7.989 40.5015 6.75 40.5Z" fill="#4E65F6"></path>
+                </svg></div>
+              <div class="richtext w-richtext">
+                <h3>Période d&#x27;essai</h3>
+                <p>Essayez nos développeurs 3 mois sans engagement, avec seulement 1 mois de préavis.</p>
+              </div>
+            </div>
+            <div class="card-item template">
+              <div class="o-icon pour w-embed"><svg width="46" height="46" viewbox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M43.75 43.75L35.4609 35.4609M21.49 41.23C26.7254 41.23 31.7463 39.1503 35.4483 35.4483C39.1503 31.7463 41.23 26.7254 41.23 21.49C41.23 16.2546 39.1503 11.2337 35.4483 7.53171C31.7463 3.82974 26.7254 1.75 21.49 1.75C16.2546 1.75 11.2337 3.82974 7.53171 7.53171C3.82974 11.2337 1.75 16.2546 1.75 21.49C1.75 26.7254 3.82974 31.7463 7.53171 35.4483C11.2337 39.1503 16.2546 41.23 21.49 41.23Z" stroke="#4E65F6" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path d="M17.7102 14.35L10.9902 21.07L17.7102 27.79M24.4302 14.35L31.1502 21.07L24.4302 27.79" stroke="#4E65F6" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg></div>
+              <div class="richtext w-richtext">
+                <h3>Une semaine offerte</h3>
+                <p>La première semaine n&#x27;est pas facturée pour que vous puissiez prendre le temps de l&#x27;intégration des nouvelles ressources.</p>
+              </div>
+            </div>
+            <div class="card-item template">
+              <div class="o-icon pour w-embed"><svg width="40" height="40" viewbox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1.75 33.25C1.75 30.8631 2.69821 28.5739 4.38604 26.886C6.07387 25.1982 8.36305 24.25 10.75 24.25H28.75C31.1369 24.25 33.4261 25.1982 35.114 26.886C36.8018 28.5739 37.75 30.8631 37.75 33.25C37.75 34.4435 37.2759 35.5881 36.432 36.432C35.5881 37.2759 34.4435 37.75 33.25 37.75H6.25C5.05653 37.75 3.91193 37.2759 3.06802 36.432C2.22411 35.5881 1.75 34.4435 1.75 33.25Z" stroke="#4E65F6" stroke-width="3.5" stroke-linejoin="round"></path>
+                  <path d="M19.75 15.25C23.4779 15.25 26.5 12.2279 26.5 8.5C26.5 4.77208 23.4779 1.75 19.75 1.75C16.0221 1.75 13 4.77208 13 8.5C13 12.2279 16.0221 15.25 19.75 15.25Z" stroke="#4E65F6" stroke-width="3.5"></path>
+                </svg></div>
+              <div class="richtext w-richtext">
+                <h3>Remplacement des profils</h3>
+                <p>Si une ressource ne vous convient pas, nous le remplaçons gratuitement en moins d’une semaine.</p>
+              </div>
+            </div>
+            <div class="card-item template">
+              <div class="o-icon pour w-embed"><svg width="46" height="46" viewbox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M43.75 43.75L35.4609 35.4609M21.49 41.23C26.7254 41.23 31.7463 39.1503 35.4483 35.4483C39.1503 31.7463 41.23 26.7254 41.23 21.49C41.23 16.2546 39.1503 11.2337 35.4483 7.53171C31.7463 3.82974 26.7254 1.75 21.49 1.75C16.2546 1.75 11.2337 3.82974 7.53171 7.53171C3.82974 11.2337 1.75 16.2546 1.75 21.49C1.75 26.7254 3.82974 31.7463 7.53171 35.4483C11.2337 39.1503 16.2546 41.23 21.49 41.23Z" stroke="#4E65F6" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path d="M17.7102 14.35L10.9902 21.07L17.7102 27.79M24.4302 14.35L31.1502 21.07L24.4302 27.79" stroke="#4E65F6" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg></div>
+              <div class="richtext w-richtext">
+                <h3>Flexibilité contractuelle</h3>
+                <p>Ajustez la taille de l’équipe, les profils ou la durée du dispositif à tout moment, selon l’évolution de vos besoins.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="o-section logo-partner">
+      <div class="w-layout-blockcontainer o-container logo-partner w-container">
+        <div class="o-icon_wrapper">
+          <div class="icon-partner w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 12 18" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+              <path d="M0.0296227 3.34676C0.0296227 2.97747 0.00423145 2.60814 0.0296227 2.23881C0.11426 1.28192 0.952171 0.534874 1.97628 0.509692C2.56028 0.492905 3.13582 0.501299 3.71982 0.509692C4.79471 0.543268 5.60723 1.32389 5.65801 2.3899C5.6834 2.94389 5.66648 3.49785 5.66648 4.05184C5.66648 5.26894 6.53824 6.15868 7.74856 6.17547C8.25638 6.17547 8.77267 6.17547 9.2805 6.17547C10.5501 6.17547 11.388 7.01485 11.3795 8.25713C11.3795 8.81112 11.3795 9.36511 11.3626 9.9191C11.3287 10.9599 10.5501 11.749 9.50055 11.7993C8.89963 11.8245 8.29024 11.7993 7.68931 11.8161C6.56363 11.8329 5.66648 12.7394 5.65801 13.8558C5.65801 14.4098 5.67494 14.9638 5.65801 15.5178C5.63262 16.6509 4.80317 17.4735 3.66057 17.4903C3.07657 17.4987 2.50104 17.5071 1.91704 17.4903C0.842143 17.4483 0.0465506 16.6509 0.0126956 15.5765C-0.00423187 14.9974 -0.00423187 14.4266 0.0126956 13.8474C0.0296231 12.6723 0.867534 11.8749 2.06092 11.8581C2.59414 11.8581 3.12735 11.8581 3.66903 11.8581C4.8201 11.8413 5.70033 10.9851 5.72572 9.84356C5.74265 9.28957 5.74265 8.73558 5.72572 8.18159C5.6834 6.99806 4.80317 6.15868 3.61825 6.15029C3.12735 6.15029 2.64492 6.15029 2.15402 6.15029C0.816751 6.15029 0.0296227 5.36967 0.0296227 4.05184C0.0296227 3.81681 0.0296227 3.59018 0.0296227 3.35516V3.34676Z" fill="currentColor"></path>
+            </svg></div>
+          <p class="text-size-regular">Nos Partenaires</p>
+        </div>
+      </div>
+      <div class="w-embed">
+        <div class="logo-carousel">
+          <div class="logo-track">
+            <!--  Logos  -->
+            <img class="animated-logo" src="images/Havas-logo.png" alt="Havas logo">
+            <img class="animated-logo" src="images/kretz-real-estate-logo.svg" alt="Kretz Real Estate logo">
+            <img class="animated-logo" src="images/Groupe-Revive-logo.png" alt="Groupe Revive logo">
+            <img class="animated-logo" src="images/Studi-logo.svg" alt="Studi logo">
+            <img class="animated-logo" src="images/LOGO-MONSITE.png" alt="MonSite logo">
+            <img class="animated-logo" src="images/leap-motor-logo.svg" alt="Leap Motor logo">
+            <img class="animated-logo" src="images/exelmans-logo.svg" alt="Exelmans logo">
+            <img class="animated-logo" src="images/kretz.png" alt="Kretz Club logo">
+            <img class="animated-logo" src="images/epoka-logo.svg" alt="Epoka logo">
+            <!--  Duplicate for seamless scrolling  -->
+            <img class="animated-logo" src="images/Havas-logo.png" alt="Havas logo">
+            <img class="animated-logo" src="images/kretz-real-estate-logo.svg" alt="Kretz Real Estate logo">
+            <img class="animated-logo" src="images/Groupe-Revive-logo.png" alt="Groupe Revive logo">
+            <img class="animated-logo" src="images/Studi-logo.svg" alt="Studi logo">
+            <img class="animated-logo" src="images/LOGO-MONSITE.png" alt="MonSite logo">
+            <img class="animated-logo" src="images/leap-motor-logo.svg" alt="Leap Motor logo">
+            <img class="animated-logo" src="images/exelmans-logo.svg" alt="Exelmans logo">
+            <img class="animated-logo" src="images/kretz.png" alt="Kretz Club logo">
+            <img class="animated-logo" src="images/epoka-logo.svg" alt="Epoka logo">
+          </div>
+        </div>
+        <style>
+  .animated-logo {
+    width: 10vw;
+    max-width: 100px;
+    min-width: 140px;
+    height: auto;
+    margin: 0 2.5rem;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+  }
+  /* Scrolling track */
+  .logo-track {
+    display: flex;
+    width: max-content;
+    animation: scroll 20s linear infinite;
+  }
+  /* Scrolling keyframes */
+  @keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+  /* Responsive tweaks */
+  @media (max-width: 480px) {
+    .logo-track {
+      animation: scroll 15s linear infinite;
+    }
+    .animated-logo {
+      width: 25vw;
+      margin: 0 4vw;
+    }
+  }
+</style>
+      </div>
+    </section>
+    <section class="o-section testimonials">
+      <div class="w-layout-blockcontainer o-container testimonials w-container">
+        <div class="o-wrapper testimonials">
+          <div class="o-content testimonials-l">
+            <div class="o-icon_wrapper">
+              <div class="icon-partner w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 12 18" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                  <path d="M0.0296227 3.34676C0.0296227 2.97747 0.00423145 2.60814 0.0296227 2.23881C0.11426 1.28192 0.952171 0.534874 1.97628 0.509692C2.56028 0.492905 3.13582 0.501299 3.71982 0.509692C4.79471 0.543268 5.60723 1.32389 5.65801 2.3899C5.6834 2.94389 5.66648 3.49785 5.66648 4.05184C5.66648 5.26894 6.53824 6.15868 7.74856 6.17547C8.25638 6.17547 8.77267 6.17547 9.2805 6.17547C10.5501 6.17547 11.388 7.01485 11.3795 8.25713C11.3795 8.81112 11.3795 9.36511 11.3626 9.9191C11.3287 10.9599 10.5501 11.749 9.50055 11.7993C8.89963 11.8245 8.29024 11.7993 7.68931 11.8161C6.56363 11.8329 5.66648 12.7394 5.65801 13.8558C5.65801 14.4098 5.67494 14.9638 5.65801 15.5178C5.63262 16.6509 4.80317 17.4735 3.66057 17.4903C3.07657 17.4987 2.50104 17.5071 1.91704 17.4903C0.842143 17.4483 0.0465506 16.6509 0.0126956 15.5765C-0.00423187 14.9974 -0.00423187 14.4266 0.0126956 13.8474C0.0296231 12.6723 0.867534 11.8749 2.06092 11.8581C2.59414 11.8581 3.12735 11.8581 3.66903 11.8581C4.8201 11.8413 5.70033 10.9851 5.72572 9.84356C5.74265 9.28957 5.74265 8.73558 5.72572 8.18159C5.6834 6.99806 4.80317 6.15868 3.61825 6.15029C3.12735 6.15029 2.64492 6.15029 2.15402 6.15029C0.816751 6.15029 0.0296227 5.36967 0.0296227 4.05184C0.0296227 3.81681 0.0296227 3.59018 0.0296227 3.35516V3.34676Z" fill="currentColor"></path>
+                </svg></div>
+              <p class="text-size-regular">Témoignages</p>
+            </div>
+            <h1 class="heading-style-h2">Une <span class="heading-style">priorité: </span><br>vous aider à atteindre<br>vos objectifs</h1>
+          </div>
+          <div class="o-content testimonials-r">
+            <div data-delay="4000" data-animation="slide" class="gallery-slide w-slider" data-autoplay="true" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="8" data-duration="500" data-infinite="true">
+              <div class="mask w-slider-mask">
+                <div class="gallery-slide-wrapper w-slide">
+                  <div class="gallery-slide-image">
+                    <p id="w-node-_35b6d11d-b1dc-3f42-90b7-101810929c99-10929c84" class="text-size-regular testimonials">“ Ils ont parfaitement compris nos besoins et ont fourni des solutions créatives et efficaces. ”</p>
+                    <div class="testimonials-person">
+                      <div class="testimonials-profile"><img src="images/67a18c8484f6e1585bb10d14_384575217_793010302834579_8997386376459613515_n.jpg" loading="lazy" id="w-node-_35b6d11d-b1dc-3f42-90b7-101810929c9d-10929c84" alt="" class="o-image profile">
+                        <div class="testimonials-name">
+                          <p class="text-size-regular name">Adrien Charrier</p>
+                          <p class="text-size-regular role">General Manager @Eureka<br></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="gallery-slide-wrapper w-slide">
+                  <div class="gallery-slide-image">
+                    <p id="w-node-_35b6d11d-b1dc-3f42-90b7-101810929ca6-10929c84" class="text-size-regular testimonials">“ Nous avions un besoin urgent de développeurs qualifiés, et TechFlow Connect a réagi avec une efficacité remarquable. Les profils envoyés étaient excellents, motivés et parfaitement intégrés à notre équipe. ”</p>
+                    <div class="testimonials-person">
+                      <div class="testimonials-profile"><img src="images/1737132964980.jpeg" loading="lazy" id="w-node-_35b6d11d-b1dc-3f42-90b7-101810929caa-10929c84" alt="" class="o-image profile">
+                        <div class="testimonials-name">
+                          <p class="text-size-regular name">Robin L.</p>
+                          <p class="text-size-regular role">CEO @ Monsite-en-ligne.com</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="gallery-slide-wrapper w-slide">
+                  <div class="gallery-slide-image">
+                    <p id="w-node-_35b6d11d-b1dc-3f42-90b7-101810929cb2-10929c84" class="text-size-regular testimonials">“ Leur communication proactive a fait de notre collaboration un jeu d&#x27;enfant. Tout était parfaitement exempt de bugs, bien documenté et a dépassé toutes les attentes. ”</p>
+                    <div class="testimonials-person">
+                      <div class="testimonials-profile"><img src="images/680607bc0efd49f10a5c33bd_1695201008865.jpeg" loading="lazy" id="w-node-_35b6d11d-b1dc-3f42-90b7-101810929cb6-10929c84" alt="" class="o-image profile">
+                        <div class="testimonials-name">
+                          <p class="text-size-regular name"><strong>Ludovic de Jouvancourt</strong></p>
+                          <p class="text-size-regular role">CEO @Prello<br></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="gallery-slide-wrapper w-slide">
+                  <div class="gallery-slide-image">
+                    <p id="w-node-_35b6d11d-b1dc-3f42-90b7-101810929cc0-10929c84" class="text-size-regular testimonials">“ Nous avons été pleinement satisfaits de cette collaboration. Le suivi était vraiment pro jusqu&#x27;au bout. ”</p>
+                    <div class="testimonials-person">
+                      <div class="testimonials-profile"><img src="images/67a18d81be7ef3552b732179_1642616688821.jpeg" loading="lazy" id="w-node-_35b6d11d-b1dc-3f42-90b7-101810929cc4-10929c84" alt="" class="o-image profile">
+                        <div class="testimonials-name">
+                          <p class="text-size-regular name">Tommy Jean</p>
+                          <p class="text-size-regular role">CEO @ Gin Agency</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="gallery-slide-wrapper w-slide">
+                  <div class="gallery-slide-image">
+                    <p id="w-node-_35b6d11d-b1dc-3f42-90b7-101810929ccc-10929c84" class="text-size-regular testimonials">“ Ils ont parfaitement compris nos besoins et ont fourni des solutions créatives et efficaces. ”</p>
+                    <div class="testimonials-person">
+                      <div class="testimonials-profile"><img src="images/67a18c8484f6e1585bb10d14_384575217_793010302834579_8997386376459613515_n.jpg" loading="lazy" id="w-node-_35b6d11d-b1dc-3f42-90b7-101810929cd0-10929c84" alt="" class="o-image profile">
+                        <div class="testimonials-name">
+                          <p class="text-size-regular name">Adrien Charrier</p>
+                          <p class="text-size-regular role">General Manager @Eureka<br></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="gallery-slide-wrapper w-slide">
+                  <div class="gallery-slide-image">
+                    <p id="w-node-_35b6d11d-b1dc-3f42-90b7-101810929cd9-10929c84" class="text-size-regular testimonials">“ Nous avions un besoin urgent de développeurs qualifiés, et TechFlow Connect a réagi avec une efficacité remarquable. Les profils envoyés étaient excellents, motivés et parfaitement intégrés à notre équipe. ”</p>
+                    <div class="testimonials-person">
+                      <div class="testimonials-profile"><img src="images/1737132964980.jpeg" loading="lazy" id="w-node-_35b6d11d-b1dc-3f42-90b7-101810929cdd-10929c84" alt="" class="o-image profile">
+                        <div class="testimonials-name">
+                          <p class="text-size-regular name">Robin L.</p>
+                          <p class="text-size-regular role">CEO @ Monsite-en-ligne.com</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="gallery-slide-wrapper w-slide">
+                  <div class="gallery-slide-image">
+                    <p id="w-node-_35b6d11d-b1dc-3f42-90b7-101810929ce5-10929c84" class="text-size-regular testimonials">“ Leur communication proactive a fait de notre collaboration un jeu d&#x27;enfant. Tout était parfaitement exempt de bugs, bien documenté et a dépassé toutes les attentes. ”</p>
+                    <div class="testimonials-person">
+                      <div class="testimonials-profile"><img src="images/680607bc0efd49f10a5c33bd_1695201008865.jpeg" loading="lazy" id="w-node-_35b6d11d-b1dc-3f42-90b7-101810929ce9-10929c84" alt="" class="o-image profile">
+                        <div class="testimonials-name">
+                          <p class="text-size-regular name"><strong>Ludovic de Jouvancourt</strong></p>
+                          <p class="text-size-regular role">CEO @Prello<br></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="gallery-slide-wrapper w-slide">
+                  <div class="gallery-slide-image">
+                    <p id="w-node-_35b6d11d-b1dc-3f42-90b7-101810929cf3-10929c84" class="text-size-regular testimonials">“ Nous avons été pleinement satisfaits de cette collaboration. Le suivi était vraiment pro jusqu&#x27;au bout. ”</p>
+                    <div class="testimonials-person">
+                      <div class="testimonials-profile"><img src="images/67a18d81be7ef3552b732179_1642616688821.jpeg" loading="lazy" id="w-node-_35b6d11d-b1dc-3f42-90b7-101810929cf7-10929c84" alt="" class="o-image profile">
+                        <div class="testimonials-name">
+                          <p class="text-size-regular name">Tommy Jean</p>
+                          <p class="text-size-regular role">CEO @ Gin Agency</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery-slider-left w-slider-arrow-left">
+                <div class="arrow-wrapper">
+                  <div class="slider-arrow flip w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 22 22" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                      <path d="M10.8862 4.72461C10.9701 4.72534 11.0399 4.75123 11.1137 4.82422L17.2885 10.999V11C17.3129 11.0247 17.3311 11.0464 17.3442 11.0654L17.3705 11.1133C17.384 11.1457 17.392 11.1812 17.392 11.2236C17.392 11.266 17.3837 11.3006 17.3705 11.332V11.333C17.36 11.3583 17.3379 11.3962 17.2905 11.4443L11.1088 17.6201C11.0275 17.7005 10.958 17.7236 10.8842 17.7236C10.8123 17.7236 10.7486 17.7015 10.6742 17.625L10.6694 17.6211C10.5965 17.548 10.5727 17.4822 10.5727 17.4053C10.5727 17.3285 10.5963 17.2626 10.6694 17.1895L16.3237 11.5352H4.40373C4.29516 11.5351 4.23101 11.5041 4.17717 11.4502C4.12301 11.396 4.09123 11.3312 4.09123 11.2227C4.09129 11.1143 4.12306 11.0502 4.17717 10.9961V10.9951C4.23094 10.9414 4.29537 10.9102 4.40373 10.9102H16.3237L15.5649 10.1514L10.6742 5.26172C10.6016 5.18903 10.5764 5.1201 10.5756 5.03711C10.5748 4.95721 10.5981 4.89191 10.6694 4.82031L10.6703 4.81934C10.7416 4.74771 10.8065 4.72392 10.8862 4.72461Z" fill="currentColor" stroke="currentColor" stroke-width="0.888889"></path>
+                    </svg></div>
+                </div>
+              </div>
+              <div class="gallery-slider-right w-slider-arrow-right">
+                <div class="arrow-wrapper">
+                  <div class="slider-arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 22 22" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                      <path d="M10.8862 4.72461C10.9701 4.72534 11.0399 4.75123 11.1137 4.82422L17.2885 10.999V11C17.3129 11.0247 17.3311 11.0464 17.3442 11.0654L17.3705 11.1133C17.384 11.1457 17.392 11.1812 17.392 11.2236C17.392 11.266 17.3837 11.3006 17.3705 11.332V11.333C17.36 11.3583 17.3379 11.3962 17.2905 11.4443L11.1088 17.6201C11.0275 17.7005 10.958 17.7236 10.8842 17.7236C10.8123 17.7236 10.7486 17.7015 10.6742 17.625L10.6694 17.6211C10.5965 17.548 10.5727 17.4822 10.5727 17.4053C10.5727 17.3285 10.5963 17.2626 10.6694 17.1895L16.3237 11.5352H4.40373C4.29516 11.5351 4.23101 11.5041 4.17717 11.4502C4.12301 11.396 4.09123 11.3312 4.09123 11.2227C4.09129 11.1143 4.12306 11.0502 4.17717 10.9961V10.9951C4.23094 10.9414 4.29537 10.9102 4.40373 10.9102H16.3237L15.5649 10.1514L10.6742 5.26172C10.6016 5.18903 10.5764 5.1201 10.5756 5.03711C10.5748 4.95721 10.5981 4.89191 10.6694 4.82031L10.6703 4.81934C10.7416 4.74771 10.8065 4.72392 10.8862 4.72461Z" fill="currentColor" stroke="currentColor" stroke-width="0.888889"></path>
+                    </svg></div>
+                </div>
+              </div>
+              <div class="gallery-slide-nav w-slider-nav w-slider-nav-invert w-round"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="o-section footer">
+      <div class="w-layout-blockcontainer o-container footer w-container">
+        <div class="o-wrapper footer-top">
+          <h1 class="heading-style-h1">Envie de travailler <br><span class="heading-style">avec nous ?</span></h1>
+          <a href="https://calendly.com/arthur-techflow-connect/30min" target="_blank" class="o-button-cta w-button">Prendre rendez-vous</a>
+          <div class="code-embed w-embed">
+            <style>
+ .o-button-cta::before {
+  content: url('data:image/svg+xml,<svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.83325 22.1666C2.83325 24.1499 4.34992 25.6666 6.33325 25.6666H22.6666C24.6499 25.6666 26.1666 24.1499 26.1666 22.1666V12.8333H2.83325V22.1666ZM22.6666 4.66659H20.3333V3.49992C20.3333 2.79992 19.8666 2.33325 19.1666 2.33325C18.4666 2.33325 17.9999 2.79992 17.9999 3.49992V4.66659H10.9999V3.49992C10.9999 2.79992 10.5333 2.33325 9.83325 2.33325C9.13325 2.33325 8.66659 2.79992 8.66659 3.49992V4.66659H6.33325C4.34992 4.66659 2.83325 6.18325 2.83325 8.16659V10.4999H26.1666V8.16659C26.1666 6.18325 24.6499 4.66659 22.6666 4.66659Z" fill="white"/></svg>');
+  margin-right: 8px;
+  vertical-align: middle;
+}
+</style>
+          </div>
+        </div>
+        <div class="o-wrapper footer-bot">
+          <div class="o-content footer-bot-l">
+            <a id="w-node-_47b2ab43-9b90-7877-bef8-e05e462328a3-4623287d" href="index.html" class="footer-logo_link w-inline-block"><img src="images/TechFlow-logo-white.svg" loading="lazy" alt="TechFlow logo" class="footer-logo_image"></a>
+          </div>
+          <div class="o-content footer-bot-r">
+            <div class="footer-col">
+              <p class="text-size-regular footer-label"><strong>Nos bureaux</strong></p>
+              <a href="#" class="footer-text">Aquation Office Park<br>#540 Koh Pich Street<br>Phnom Penh, Cambodia</a>
+              <a href="#" class="footer-text">60 rue François 1er<br>75008 Paris<br>France</a>
+            </div>
+            <div class="footer-col">
+              <p class="text-size-regular footer-label"><strong>Nos expertises</strong></p>
+              <a href="expertises/front-end.html" class="footer-link">Développeur Front-end</a>
+              <a href="expertises/back-end.html" class="footer-link">Développeur Back-end</a>
+              <a href="expertises/devops.html" class="footer-link">DevOps et Cloud</a>
+            </div>
+            <div class="footer-col">
+              <p class="text-size-regular footer-label"><strong>Informations</strong></p>
+              <a href="pourquoi-techflow.html" class="footer-link">Pourquoi Techflow</a>
+              <a href="comment-ca-marche.html" aria-current="page" class="footer-link w--current">Comment ça marche</a>
+              <a href="contact.html" class="footer-link">Contact</a>
+            </div>
+          </div>
+          <div id="w-node-_47b2ab43-9b90-7877-bef8-e05e462328c6-4623287d" class="o-wrapper footer-copyright">
+            <div class="footer-copyright-l">
+              <a href="#" class="footer-link text">© 2026 Techflow<br></a>
+              <a href="mentions-legales.html" class="footer-link">Mentions légales</a>
+              <a href="conditions-generales-dutilisation.html" class="footer-link">Conditions Générales d&#x27;Utilisation</a>
+            </div>
+            <div class="footer-copyright-r">
+              <a href="https://www.instagram.com/techflow.agency/" target="_blank" class="social-link w-inline-block">
+                <div class="social-icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 18 19" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                    <path d="M16.4549 6.00255C16.4404 5.38027 16.3238 4.76459 16.11 4.18004C15.9212 3.67889 15.6241 3.2256 15.24 2.85252C14.8669 2.46834 14.4136 2.17126 13.9125 1.9825C13.3279 1.76862 12.7123 1.65207 12.09 1.63747C11.295 1.59246 11.04 1.59245 9 1.59242C6.96 1.59238 6.705 1.59238 5.91 1.63736C5.28772 1.65194 4.67205 1.76847 4.08749 1.98233C3.58635 2.17107 3.13305 2.46813 2.75998 2.85231C2.37554 3.22369 2.0806 3.67763 1.89745 4.17979C1.67706 4.76279 1.55784 5.37915 1.54492 6.00229C1.49991 6.79729 1.4999 7.05229 1.49987 9.09229C1.49983 11.1323 1.49983 11.3873 1.54482 12.1823C1.55771 12.8054 1.67691 13.4218 1.89728 14.0048C2.08041 14.507 2.37534 14.9609 2.75976 15.3323C3.13282 15.7165 3.58611 16.0135 4.08724 16.2023C4.67179 16.4162 5.28746 16.5328 5.90974 16.5474C6.70474 16.5924 6.95974 16.5924 8.99974 16.5924C11.0397 16.5925 11.2947 16.5925 12.0897 16.5475C12.712 16.5329 13.3277 16.4164 13.9122 16.2025C14.4098 16.0068 14.8618 15.7107 15.2398 15.3326C15.6179 14.9545 15.914 14.5026 16.1098 14.005C16.3237 13.4205 16.4403 12.8048 16.4548 12.1825C16.4548 11.3875 16.4998 11.1325 16.4999 9.09255C16.4999 7.05255 16.4999 6.79755 16.4549 6.00255ZM15.1048 12.0925C15.0993 12.5686 15.0131 13.0403 14.8498 13.4875C14.7243 13.811 14.5328 14.1048 14.2874 14.3501C14.042 14.5955 13.7482 14.787 13.4248 14.9125C12.9775 15.0758 12.5059 15.162 12.0298 15.1675C11.2798 15.205 11.0023 15.2125 9.02976 15.2124C7.05726 15.2124 6.77976 15.2124 6.02976 15.1674C5.53531 15.1785 5.04277 15.1022 4.57477 14.9423C4.25129 14.8169 3.95751 14.6253 3.71216 14.3799C3.46682 14.1346 3.27529 13.8408 3.14979 13.5173C2.98311 13.0606 2.89684 12.5785 2.89482 12.0923C2.89483 11.3423 2.84983 11.0648 2.84987 9.09231C2.8499 7.11981 2.84991 6.84231 2.89492 6.09231C2.89696 5.60614 2.98325 5.12401 3.14995 4.66731C3.27546 4.34383 3.467 4.05005 3.71235 3.80471C3.9577 3.55937 4.25149 3.36784 4.57497 3.24234C5.03167 3.07566 5.51381 2.98939 5.99998 2.98736C6.74998 2.98738 7.02748 2.94238 8.99998 2.94242C10.9725 2.94245 11.25 2.94246 12 2.98747C12.4761 2.99294 12.9477 3.07917 13.395 3.24249C13.7184 3.368 14.0122 3.55954 14.2575 3.8049C14.5029 4.05025 14.6945 4.34403 14.8199 4.66752C14.9969 5.1224 15.0933 5.60459 15.1049 6.09252C15.1424 6.84252 15.1499 7.12002 15.1499 9.09252C15.1498 11.065 15.1423 11.3425 15.1048 12.0925Z" fill="currentColor"></path>
+                    <path d="M8.99978 5.23737C8.23733 5.23736 7.492 5.46344 6.85804 5.88702C6.22408 6.3106 5.72997 6.91266 5.43818 7.61706C5.14639 8.32145 5.07004 9.09658 5.21877 9.84441C5.3675 10.5922 5.73464 11.2791 6.27377 11.8182C6.81289 12.3574 7.4998 12.7245 8.24754 12.8733C8.99537 13.0221 9.77049 12.9457 10.4749 12.6539C11.1793 12.3622 11.7814 11.8681 12.205 11.2341C12.6286 10.6002 12.8547 9.85489 12.8547 9.09244C12.8547 8.07004 12.4486 7.08949 11.7256 6.36652C11.0027 5.64355 10.0222 5.23739 8.99978 5.23737ZM8.99967 11.5899C8.50572 11.5899 8.02287 11.4434 7.61217 11.1689C7.20143 10.8945 6.88133 10.5044 6.6923 10.0481C6.50328 9.59175 6.45384 9.08955 6.55021 8.60505C6.64658 8.12063 6.88446 7.67559 7.23374 7.32634C7.583 6.97707 8.02805 6.73921 8.51248 6.64286C8.99698 6.5465 9.49918 6.59596 9.95548 6.785C10.4118 6.97404 10.8019 7.29416 11.0763 7.70491C11.3508 8.11561 11.4972 8.59847 11.4972 9.09242C11.4972 9.42039 11.4326 9.74514 11.3071 10.0481C11.1816 10.3512 10.9976 10.6265 10.7657 10.8584C10.5337 11.0903 10.2585 11.2743 9.95539 11.3998C9.65239 11.5253 9.32764 11.5899 8.99967 11.5899Z" fill="currentColor"></path>
+                    <path d="M13.005 4.18752C12.827 4.18751 12.653 4.24029 12.5049 4.33918C12.357 4.43807 12.2416 4.57863 12.1734 4.74309C12.1053 4.90754 12.0875 5.0885 12.1223 5.26308C12.157 5.43766 12.2426 5.59803 12.3686 5.72389C12.4944 5.84977 12.6548 5.93549 12.8294 5.97022C13.004 6.00495 13.1849 5.98713 13.3493 5.91901C13.5138 5.8509 13.6544 5.73554 13.7533 5.58754C13.8521 5.43954 13.9049 5.26553 13.9049 5.08753C13.905 4.84884 13.8102 4.61991 13.6413 4.45113C13.4726 4.28234 13.2437 4.18752 13.005 4.18752Z" fill="currentColor"></path>
+                  </svg></div>
+              </a>
+              <a href="https://www.linkedin.com/company/techflow-agence/" target="_blank" class="social-link w-inline-block">
+                <div class="social-icon w-embed"><svg width="18" height="19" viewbox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14.279 14.3748L12.0583 14.3748L12.0583 10.8925C12.0584 10.063 12.0411 8.99505 10.9004 8.99503C9.74237 8.99501 9.56536 9.895 9.56534 10.8318L9.56528 14.3733L7.34378 14.3732L7.3439 7.21747L9.47765 7.21751L9.47763 8.1925L9.50688 8.1925C9.72057 7.82733 10.0293 7.52698 10.4001 7.32334C10.771 7.1197 11.1901 7.02041 11.6129 7.03605C13.8629 7.03609 14.2799 8.51734 14.2798 10.4456L14.2798 14.3741L14.279 14.3748ZM4.83517 6.23793C4.58009 6.23777 4.3308 6.162 4.11877 6.0202C3.90675 5.87839 3.74152 5.67691 3.64399 5.44122C3.54645 5.20553 3.52097 4.94622 3.57077 4.69606C3.62057 4.44589 3.74342 4.2161 3.92379 4.03574C4.10416 3.85538 4.33395 3.73254 4.58411 3.68274C4.83428 3.63295 5.0936 3.65844 5.32927 3.75598C5.56496 3.85353 5.76644 4.01876 5.90824 4.23079C6.05004 4.44282 6.1258 4.69213 6.12594 4.9472C6.12613 5.11676 6.09288 5.28469 6.02808 5.44138C5.96329 5.59807 5.86821 5.74043 5.74832 5.86033C5.62842 5.98023 5.48604 6.07529 5.32935 6.14008C5.17266 6.20487 5.00473 6.23813 4.83517 6.23793ZM5.94878 14.3747L3.72203 14.3747L3.72215 7.21741L5.9489 7.21745L5.94878 14.3747ZM15.3907 1.59261L2.607 1.59239C2.46334 1.5906 2.32072 1.61714 2.18732 1.6705C2.05392 1.72385 1.93234 1.80298 1.82953 1.90335C1.72673 2.00371 1.6447 2.12336 1.58816 2.25544C1.53161 2.38752 1.50165 2.52945 1.49998 2.67312L1.49976 15.5116C1.50142 15.6553 1.53138 15.7972 1.58792 15.9293C1.64446 16.0614 1.72648 16.181 1.82928 16.2814C1.93209 16.3818 2.05366 16.4609 2.18706 16.5142C2.32046 16.5676 2.46308 16.5942 2.60674 16.5924L15.3882 16.5926C15.6789 16.5964 15.9591 16.4848 16.1676 16.2821C16.3759 16.0795 16.4954 15.8025 16.4998 15.5119L16.5 2.67338C16.4954 2.38282 16.3759 2.10591 16.1676 1.90332C15.9592 1.70074 15.679 1.589 15.3885 1.59261L15.3907 1.59261Z" fill="white"></path>
+                  </svg></div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=68e9ba40dcc96438485d67bb" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+</body>
+</html>
