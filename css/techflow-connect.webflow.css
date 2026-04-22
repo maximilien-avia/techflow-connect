@@ -1848,12 +1848,15 @@ figcaption {
 
 .o-wrapper.hero {
   color: var(--color-2);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
-  display: flex;
+  min-height: 70svh;
 }
 
 .o-content.hero {
   justify-content: center;
+  grid-column: 1 / 2;
 }
 
 .o-wrapper.hero.pour {
@@ -3978,6 +3981,11 @@ figcaption {
     padding-top: 2rem;
     padding-left: 24px;
     padding-right: 24px;
+  }
+
+  .o-wrapper.hero {
+    grid-template-columns: 1fr;
+    min-height: auto;
   }
 
   .o-container.hero {
