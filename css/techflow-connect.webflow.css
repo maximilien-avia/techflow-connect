@@ -1848,6 +1848,12 @@ figcaption {
 
 .o-wrapper.hero {
   color: var(--color-2);
+  align-items: center;
+  display: flex;
+}
+
+.o-content.hero {
+  justify-content: center;
 }
 
 .o-wrapper.hero.pour {
