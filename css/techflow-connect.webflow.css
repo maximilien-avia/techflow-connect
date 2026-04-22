@@ -1777,8 +1777,8 @@ figcaption {
 }
 
 .o-container.meilleur, .o-container.expertises {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .o-container.footer {
@@ -2142,45 +2142,74 @@ figcaption {
 }
 
 .meilleur_wrapper {
-  grid-column-gap: 16px;
-  grid-row-gap: 16px;
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-columns: 1fr;
-  margin-top: 1rem;
+  margin-top: 2rem;
   display: grid;
 }
 
 .meilleur_item {
-  padding: 1rem;
+  padding: 0;
   position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  min-height: 420px;
+  transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94), box-shadow 0.35s ease;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.meilleur_item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
+}
+
+.meilleur_item .o-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  inset: 0;
+  transition: transform 0.5s ease;
+}
+
+.meilleur_item:hover .o-image {
+  transform: scale(1.04);
 }
 
 .meilleur_content {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  background-color: #fff;
-  border-radius: 0 20px 20px;
+  background: linear-gradient(135deg, rgba(255,255,255,0.97), rgba(255,255,255,0.92));
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 0 20px 20px 0;
   flex-flow: column;
   width: 35ch;
-  padding: 1rem;
+  padding: 1.5rem;
   display: flex;
   position: absolute;
   inset: 0% auto auto 0%;
-  box-shadow: 0 0 30px #0000001a;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(255,255,255,0.6);
+  z-index: 2;
 }
 
 .meilleur_content._2 {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  padding: 1.2rem;
+  padding: 1.5rem;
   inset: auto auto 0% 0%;
+  border-radius: 0 20px 0 0;
 }
 
 .meilleur_content._3 {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   inset: 0% 0% auto auto;
+  border-radius: 20px 0 0 20px;
 }
 
 .o-button_group {
@@ -3433,6 +3462,10 @@ figcaption {
     width: 50ch;
   }
 
+  .meilleur_item {
+    min-height: 380px;
+  }
+
   .counter-number, .counter-number-symbol {
     font-size: 60px;
   }
@@ -4022,15 +4055,32 @@ figcaption {
     padding: 0;
   }
 
+  .meilleur_item {
+    min-height: auto;
+    border-radius: 16px;
+  }
+
+  .meilleur_item .o-image {
+    position: static;
+    height: auto;
+  }
+
   .meilleur_content {
     border-top-right-radius: 0;
     width: auto;
     position: static;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    background: #fff;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
   }
 
   .meilleur_content._3 {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+    border-radius: 0;
   }
 
   .comparer-row {
